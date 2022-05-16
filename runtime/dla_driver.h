@@ -1,7 +1,11 @@
-#ifndef DLA_DRIVER_H
-#define DLA_DRIVER_H
+/*
+* Copyright [2022] <USTC-CSS lab>
+*/
 
-#include "dla_register.h"
+#ifndef RUNTIME_DLA_DRIVER_H_
+#define RUNTIME_DLA_DRIVER_H_
+
+#include "./la_register.h"
 
 /*
 * SXDLA registers reset value.
@@ -131,29 +135,29 @@ void SET_LAYERCOUNT(unsigned int channels) { SXDLA_LAYERCOUNT = channels;}
 * Get the value of each register.
 */
 
-#define	GET_BIT(REG, bit)	((REG & (1 << bit)) >> bit)
+#define GET_BIT(REG, bit) ((REG & (1 << bit)) >> bit)
 
-unsigned int GET_CTRL_ENABLE() { return GET_BIT(SXDLA_CTRL,0);}
-unsigned int GET_CTRL_SWRST() { return GET_BIT(SXDLA_CTRL,1);}
-unsigned int GET_CTRL_BUSY() { return GET_BIT(SXDLA_CTRL,7);}
+unsigned int GET_CTRL_ENABLE() { return GET_BIT(SXDLA_CTRL, 0);}
+unsigned int GET_CTRL_SWRST() { return GET_BIT(SXDLA_CTRL, 1);}
+unsigned int GET_CTRL_BUSY() { return GET_BIT(SXDLA_CTRL, 7);}
 
-unsigned int GET_START() { return GET_BIT(SXDLA_START,0);}
+unsigned int GET_START() { return GET_BIT(SXDLA_START, 0);}
 
-unsigned int GET_INTREN_DONEEN() { return GET_BIT(SXDLA_INTREN,0);}
-unsigned int GET_INTREN_TOEN() { return GET_BIT(SXDLA_INTREN,1);}
-unsigned int GET_INTREN_CMDOVREN() { return GET_BIT(SXDLA_INTREN,2);}
-unsigned int GET_INTREN_CMDERREN() { return GET_BIT(SXDLA_INTREN,3);}
+unsigned int GET_INTREN_DONEEN() { return GET_BIT(SXDLA_INTREN, 0);}
+unsigned int GET_INTREN_TOEN() { return GET_BIT(SXDLA_INTREN, 1);}
+unsigned int GET_INTREN_CMDOVREN() { return GET_BIT(SXDLA_INTREN, 2);}
+unsigned int GET_INTREN_CMDERREN() { return GET_BIT(SXDLA_INTREN, 3);}
 
-unsigned int GET_INTR_DONE() { return GET_BIT(SXDLA_INTR,0);}
-unsigned int GET_INTR_TO() { return GET_BIT(SXDLA_INTR,1);}
-unsigned int GET_INTR_CMDOVR() { return GET_BIT(SXDLA_INTR,2);}
-unsigned int GET_INTR_CMDERR() { return GET_BIT(SXDLA_INTR,3);}
+unsigned int GET_INTR_DONE() { return GET_BIT(SXDLA_INTR, 0);}
+unsigned int GET_INTR_TO() { return GET_BIT(SXDLA_INTR, 1);}
+unsigned int GET_INTR_CMDOVR() { return GET_BIT(SXDLA_INTR, 2);}
+unsigned int GET_INTR_CMDERR() { return GET_BIT(SXDLA_INTR, 3);}
 
-void* GET_CMDADDR() { return (void*)SXDLA_CMDADDR;}
+void* GET_CMDADDR() { return reinterpret_cast<void*>(SXDLA_CMDADDR);}
 
 unsigned int GET_MAXCMD() { return SXDLA_MAXCMD;}
 
-void* GET_OFFSETADDR() { return (void*)SXDLA_OFFSETADDR;}
+void* GET_OFFSETADDR() { return reinterpret_cast<void*>(SXDLA_OFFSETADDR);}
 
 unsigned int GET_MAXTIME() { return SXDLA_MAXTIME;}
 
@@ -177,4 +181,5 @@ unsigned int GET_RUNCMD() { return SXDLA_RUNCMD;}
 
 unsigned int GET_VERSION() { return SXDLA_VERSION;}
 
-#endif
+#endif  // RUNTIME_DLA_DRIVER_H_
+
