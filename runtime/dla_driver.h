@@ -5,7 +5,7 @@
 #ifndef RUNTIME_DLA_DRIVER_H_
 #define RUNTIME_DLA_DRIVER_H_
 
-#include "./la_register.h"
+#include "./dla_register.h"
 
 /*
 * SXDLA registers reset value.
@@ -29,7 +29,7 @@
 #define RESET_RUNCMD        0x00000000
 #define RESET_VERSION       0x00000100
 
-void RESET_REGISTER(SX_REGISTER reg) {
+void RESET_REGISTER(enum SX_REGISTER reg) {
     switch (reg) {
         case CTRL:
             SXDLA_CTRL = RESET_CTRL;
@@ -55,7 +55,7 @@ void RESET_REGISTER(SX_REGISTER reg) {
         case MAXTI:
             SXDLA_MAXTIME = RESET_MAXTIME;
             break;
-        case COUNT1:
+        case COUNT0:
             SXDLA_COUNT0 = RESET_COUNT0;
             break;
         case COUNT1:
@@ -153,11 +153,11 @@ unsigned int GET_INTR_TO() { return GET_BIT(SXDLA_INTR, 1);}
 unsigned int GET_INTR_CMDOVR() { return GET_BIT(SXDLA_INTR, 2);}
 unsigned int GET_INTR_CMDERR() { return GET_BIT(SXDLA_INTR, 3);}
 
-void* GET_CMDADDR() { return reinterpret_cast<void*>(SXDLA_CMDADDR);}
+void* GET_CMDADDR() { return (void*)SXDLA_CMDADDR;}
 
 unsigned int GET_MAXCMD() { return SXDLA_MAXCMD;}
 
-void* GET_OFFSETADDR() { return reinterpret_cast<void*>(SXDLA_OFFSETADDR);}
+void* GET_OFFSETADDR() { return (void*)SXDLA_OFFSETADDR;}
 
 unsigned int GET_MAXTIME() { return SXDLA_MAXTIME;}
 
@@ -182,4 +182,3 @@ unsigned int GET_RUNCMD() { return SXDLA_RUNCMD;}
 unsigned int GET_VERSION() { return SXDLA_VERSION;}
 
 #endif  // RUNTIME_DLA_DRIVER_H_
-
