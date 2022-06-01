@@ -91,45 +91,45 @@ void RESET_REGISTER(enum SX_REGISTER reg) {
 /*
 * Set the value of each register.
 */
-void SET_CTRL_ENABLE() { SXDLA_CTRL |= (1 << 0);}
+inline void SET_CTRL_ENABLE() { SXDLA_CTRL |= (1 << 0);}
 
-void SET_CTRL_SWRST() { SXDLA_CTRL |= (1 << 1);}
+inline void SET_CTRL_SWRST() { SXDLA_CTRL |= (1 << 1);}
 
-void SET_START() { SXDLA_START |= (1 << 0);}
+inline void SET_START() { SXDLA_START |= (1 << 0);}
 
-void SET_INTREN_DONEEN() { SXDLA_INTREN |= (1 << 0);}
-void SET_INTREN_TOEN() { SXDLA_INTREN |= (1 << 1);}
-void SET_INTREN_CMDOVREN() { SXDLA_INTREN |= (1 << 2);}
-void SET_INTREN_CMDERREN() { SXDLA_INTREN |= (1 << 3);}
+inline void SET_INTREN_DONEEN() { SXDLA_INTREN |= (1 << 0);}
+inline void SET_INTREN_TOEN() { SXDLA_INTREN |= (1 << 1);}
+inline void SET_INTREN_CMDOVREN() { SXDLA_INTREN |= (1 << 2);}
+inline void SET_INTREN_CMDERREN() { SXDLA_INTREN |= (1 << 3);}
 
-void SET_INTR_DONE() { SXDLA_INTR |= (1 << 0);}
-void SET_INTR_TO() { SXDLA_INTR |= (1 << 1);}
-void SET_INTR_CMDOVR() { SXDLA_INTR |= (1 << 2);}
-void SET_INTR_CMDERR() { SXDLA_INTR |= (1 << 3);}
+inline void SET_INTR_DONE() { SXDLA_INTR |= (1 << 0);}
+inline void SET_INTR_TO() { SXDLA_INTR |= (1 << 1);}
+inline void SET_INTR_CMDOVR() { SXDLA_INTR |= (1 << 2);}
+inline void SET_INTR_CMDERR() { SXDLA_INTR |= (1 << 3);}
 
-void SET_CMDADDR(void* addr) { SXDLA_CMDADDR = (unsigned int)addr;}
+inline void SET_CMDADDR(void* addr) { SXDLA_CMDADDR = (unsigned int)addr;}
 
-void SET_MAXCMD(unsigned int num) {SXDLA_MAXCMD = num;}
+inline void SET_MAXCMD(unsigned int num) {SXDLA_MAXCMD = num;}
 
-void SET_OFFSETADDR(void* addr) { SXDLA_OFFSETADDR = (unsigned int)addr;}
+inline void SET_OFFSETADDR(void* addr) { SXDLA_OFFSETADDR = (unsigned int)addr;}
 
-void SET_MAXTIME(unsigned int cycles) { SXDLA_MAXTIME = cycles;}
+inline void SET_MAXTIME(unsigned int cycles) { SXDLA_MAXTIME = cycles;}
 
-void SET_COUNT0(unsigned int qwords) { SXDLA_COUNT0 = qwords;}
+inline void SET_COUNT0(unsigned int qwords) { SXDLA_COUNT0 = qwords;}
 
-void SET_COUNT1(unsigned int qwords) { SXDLA_COUNT1 = qwords;}
+inline void SET_COUNT1(unsigned int qwords) { SXDLA_COUNT1 = qwords;}
 
-void SET_COUNT2(unsigned int qwords) { SXDLA_COUNT2 = qwords;}
+inline void SET_COUNT2(unsigned int qwords) { SXDLA_COUNT2 = qwords;}
 
-void SET_COUNT3(unsigned int qwords) { SXDLA_COUNT3 = qwords;}
+inline void SET_COUNT3(unsigned int qwords) { SXDLA_COUNT3 = qwords;}
 
-void SET_COUNT4(unsigned int qwords) { SXDLA_COUNT4 = qwords;}
+inline void SET_COUNT4(unsigned int qwords) { SXDLA_COUNT4 = qwords;}
 
-void SET_COUNT5(unsigned int qwords) { SXDLA_COUNT5 = qwords;}
+inline void SET_COUNT5(unsigned int qwords) { SXDLA_COUNT5 = qwords;}
 
-void SET_SUMCOUNT(unsigned int qwords) { SXDLA_SUMCOUNT = qwords;}
+inline void SET_SUMCOUNT(unsigned int qwords) { SXDLA_SUMCOUNT = qwords;}
 
-void SET_LAYERCOUNT(unsigned int channels) { SXDLA_LAYERCOUNT = channels;}
+inline void SET_LAYERCOUNT(unsigned int channels) { SXDLA_LAYERCOUNT = channels;}
 
 /*
 * Get the value of each register.
@@ -137,48 +137,48 @@ void SET_LAYERCOUNT(unsigned int channels) { SXDLA_LAYERCOUNT = channels;}
 
 #define GET_BIT(REG, bit) ((REG & (1 << bit)) >> bit)
 
-unsigned int GET_CTRL_ENABLE() { return GET_BIT(SXDLA_CTRL, 0);}
-unsigned int GET_CTRL_SWRST() { return GET_BIT(SXDLA_CTRL, 1);}
-unsigned int GET_CTRL_BUSY() { return GET_BIT(SXDLA_CTRL, 7);}
+inline unsigned int GET_CTRL_ENABLE() { return GET_BIT(SXDLA_CTRL, 0);}
+inline unsigned int GET_CTRL_SWRST() { return GET_BIT(SXDLA_CTRL, 1);}
+inline unsigned int GET_CTRL_BUSY() { return GET_BIT(SXDLA_CTRL, 7);}
 
-unsigned int GET_START() { return GET_BIT(SXDLA_START, 0);}
+inline unsigned int GET_START() { return GET_BIT(SXDLA_START, 0);}
 
-unsigned int GET_INTREN_DONEEN() { return GET_BIT(SXDLA_INTREN, 0);}
-unsigned int GET_INTREN_TOEN() { return GET_BIT(SXDLA_INTREN, 1);}
-unsigned int GET_INTREN_CMDOVREN() { return GET_BIT(SXDLA_INTREN, 2);}
-unsigned int GET_INTREN_CMDERREN() { return GET_BIT(SXDLA_INTREN, 3);}
+inline unsigned int GET_INTREN_DONEEN() { return GET_BIT(SXDLA_INTREN, 0);}
+inline unsigned int GET_INTREN_TOEN() { return GET_BIT(SXDLA_INTREN, 1);}
+inline unsigned int GET_INTREN_CMDOVREN() { return GET_BIT(SXDLA_INTREN, 2);}
+inline unsigned int GET_INTREN_CMDERREN() { return GET_BIT(SXDLA_INTREN, 3);}
 
-unsigned int GET_INTR_DONE() { return GET_BIT(SXDLA_INTR, 0);}
-unsigned int GET_INTR_TO() { return GET_BIT(SXDLA_INTR, 1);}
-unsigned int GET_INTR_CMDOVR() { return GET_BIT(SXDLA_INTR, 2);}
-unsigned int GET_INTR_CMDERR() { return GET_BIT(SXDLA_INTR, 3);}
+inline unsigned int GET_INTR_DONE() { return GET_BIT(SXDLA_INTR, 0);}
+inline unsigned int GET_INTR_TO() { return GET_BIT(SXDLA_INTR, 1);}
+inline unsigned int GET_INTR_CMDOVR() { return GET_BIT(SXDLA_INTR, 2);}
+inline unsigned int GET_INTR_CMDERR() { return GET_BIT(SXDLA_INTR, 3);}
 
-void* GET_CMDADDR() { return (void*)SXDLA_CMDADDR;}
+inline void* GET_CMDADDR() { return (void*)SXDLA_CMDADDR;}
 
-unsigned int GET_MAXCMD() { return SXDLA_MAXCMD;}
+inline unsigned int GET_MAXCMD() { return SXDLA_MAXCMD;}
 
-void* GET_OFFSETADDR() { return (void*)SXDLA_OFFSETADDR;}
+inline void* GET_OFFSETADDR() { return (void*)SXDLA_OFFSETADDR;}
 
-unsigned int GET_MAXTIME() { return SXDLA_MAXTIME;}
+inline unsigned int GET_MAXTIME() { return SXDLA_MAXTIME;}
 
-unsigned int GET_COUNT0() { return SXDLA_COUNT0;}
+inline unsigned int GET_COUNT0() { return SXDLA_COUNT0;}
 
-unsigned int GET_COUNT1() { return SXDLA_COUNT1;}
+inline unsigned int GET_COUNT1() { return SXDLA_COUNT1;}
 
-unsigned int GET_COUNT2() { return SXDLA_COUNT2;}
+inline unsigned int GET_COUNT2() { return SXDLA_COUNT2;}
 
-unsigned int GET_COUNT3() { return SXDLA_COUNT3;}
+inline unsigned int GET_COUNT3() { return SXDLA_COUNT3;}
 
-unsigned int GET_COUNT4() { return SXDLA_COUNT4;}
+inline unsigned int GET_COUNT4() { return SXDLA_COUNT4;}
 
-unsigned int GET_COUNT5() { return SXDLA_COUNT5;}
+inline unsigned int GET_COUNT5() { return SXDLA_COUNT5;}
 
-unsigned int GET_SUMCOUNT() {return SXDLA_SUMCOUNT;}
+inline unsigned int GET_SUMCOUNT() {return SXDLA_SUMCOUNT;}
 
-unsigned int GET_LAYERCOUNT() { return SXDLA_LAYERCOUNT;}
+inline unsigned int GET_LAYERCOUNT() { return SXDLA_LAYERCOUNT;}
 
-unsigned int GET_RUNCMD() { return SXDLA_RUNCMD;}
+inline unsigned int GET_RUNCMD() { return SXDLA_RUNCMD;}
 
-unsigned int GET_VERSION() { return SXDLA_VERSION;}
+inline unsigned int GET_VERSION() { return SXDLA_VERSION;}
 
 #endif  // RUNTIME_DLA_DRIVER_H_
