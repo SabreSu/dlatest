@@ -2,10 +2,11 @@
 * Copyright [2022] <USTC-CSS lab>
 */
 
+#include "stdio.h"
 #include "./dla_runtime.h"
 
 
-int main() {
+int main(int argc, const char * argv[]) {
   // 1. load and parde model.
 
 

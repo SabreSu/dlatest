@@ -53,8 +53,8 @@ for(out_channel=0; out_channel < 64; out_channel++, DramAddr2+=56*56) {
   conv3x3 {
     dst: DramAddr2
     src: DramAddr1 + 56*56*channel
-    tile_W: 56+1
-    tile_H: 56+1
+    tile_W: 56
+    tile_H: 56
     channel num: 1
     In Byte per line: 56
     In Byte per channel: 56*56

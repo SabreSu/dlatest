@@ -5,6 +5,7 @@
 #ifndef RUNTIME_DLA_DRIVER_H_
 #define RUNTIME_DLA_DRIVER_H_
 
+#include<condition_variable>
 #include "./dla_register.h"
 
 /*
@@ -107,11 +108,21 @@ inline void SET_INTR_TO() { SXDLA_INTR |= (1 << 1);}
 inline void SET_INTR_CMDOVR() { SXDLA_INTR |= (1 << 2);}
 inline void SET_INTR_CMDERR() { SXDLA_INTR |= (1 << 3);}
 
-inline void SET_CMDADDR(void* addr) { SXDLA_CMDADDR = (unsigned int)addr;}
+/*
+* In 32-bit operating systems, the void type pointer is 4 bytes, which is the same as the unsigned int type.
+* But in 64 bit OS it is different.
+*/
+// inline void SET_CMDADDR(void* addr) { SXDLA_CMDADDR = (unsigned int)addr;}
+inline void SET_CMDADDR(void* addr) { SXDLA_CMDADDR = reinterpret_cast<std::uintptr_t>(addr);}
 
 inline void SET_MAXCMD(unsigned int num) {SXDLA_MAXCMD = num;}
 
-inline void SET_OFFSETADDR(void* addr) { SXDLA_OFFSETADDR = (unsigned int)addr;}
+/*
+* In 32-bit operating systems, the void type pointer is 4 bytes, which is the same as the unsigned int type.
+* But in 64 bit OS it is different.
+*/
+// inline void SET_OFFSETADDR(void* addr) { SXDLA_OFFSETADDR = (unsigned int)addr;}
+inline void SET_OFFSETADDR(void* addr) { SXDLA_OFFSETADDR = reinterpret_cast<std::uintptr_t>(addr);}
 
 inline void SET_MAXTIME(unsigned int cycles) { SXDLA_MAXTIME = cycles;}
 
