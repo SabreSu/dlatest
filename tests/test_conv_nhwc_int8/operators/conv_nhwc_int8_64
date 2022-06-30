@@ -1,0 +1,30 @@
+{
+    "progarm":
+    [
+        {
+                "input_addr":
+                {
+                    "tile_height":64,
+                    "tile_width":64,
+                    "addr": "0x100000",
+                    "byte_perline":64,
+                    "byte_perchan":4,096
+                },
+                "operators":
+                {
+                    "conv3":
+                    {
+                        "chan_num": 1,
+                        "pad": [1,1,1,1]
+                    }
+                },
+                "write_back":
+                {
+                    "addr": "0x1000000",
+                    "byte_perline": 64,
+                    "byte_perchan": 4,096
+                }
+        }
+    ]
+}
+
