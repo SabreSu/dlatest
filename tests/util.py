@@ -56,6 +56,10 @@ def call_assembler(cmd_str, bin_name, echp_print=1):
   if echp_print == 1:
     print("\nrun the cmd command : \"{}\"\n".format(cmd_str))
 
+  # (fixme)TODO(ssb)：When the assembler is finished, change the
+  #                   assembly command to the following form:
+
+  # subprocess.run(cmd_str + " -o " + bin_name, shell=True)
   subprocess.run(cmd_str + " > " + bin_name, shell=True)
 
   return bin_name
@@ -180,6 +184,20 @@ def write_command(param_dic, weight, file_name="cmd.dat"):
       file.write(i + "\n")
 
   print("write command and weight data to \"{}\" file.".format(file_name))
+
+def write_weight_file(weight_list_str, file_name="weight"):
+  """_summary_
+
+  Args:
+      weight_list_str (list): The list of string of weight.
+      file_name (str, optional): The file name to write. Defaults to "weight".
+
+  Returns:
+      string: file name
+  """
+  with open(file_name, 'w', encoding="ascii") as file:
+    for i in weight_list_str:
+      file.write(i + "\n")
 
 # The following functions are used to generate "data.dat" file.
 

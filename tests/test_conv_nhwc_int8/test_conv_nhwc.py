@@ -21,6 +21,13 @@ def verify_conv_nhwc_int8(feature_map_shape, weight_shape, origin_file, dtype="i
   # 3. generate weight data.
   weight_list = gen_weight_data(weight_shape, dtype)
   weight_list_str = gen_weight_data_str(weight_list)
+  
+  # (fixme)TODO(ssb)：When the assembler is finished, change this step to
+  #                   write the weight data into the weight file. And execute
+  #                   the assembler after this step, taking the weight data
+  #                   file as an input of the assembler.
+  # write_weight_file(weight_list_str)
+
   # 4. write command and weight data to "cmd.dat" file.
   write_command(param_dic, weight_list_str, "cmd.dat")
 
