@@ -158,12 +158,12 @@ class gen_sxdla_code():
                + self.input_width * tile_top * (-1)                                   \
                + tile_left * (-1)
     
-    self.code_list.append(tab_string*(level+1) + "\"tile_width\": {} ,\n".format(self.tile_width + tile_left + tile_right))
-    self.code_list.append(tab_string*(level+1) + "\"tile_height\": {} ,\n".format(self.tile_height + tile_top + tile_bottom))
+    self.code_list.append(tab_string*(level+1) + "\"tile_width\": {},\n".format(self.tile_width + tile_left + tile_right))
+    self.code_list.append(tab_string*(level+1) + "\"tile_height\": {},\n".format(self.tile_height + tile_top + tile_bottom))
     
     self.code_list.append(tab_string*(level+1) +  "\"addr\":\"{}\",\n".format(hex(input_addr)))
     
-    self.code_list.append(tab_string*(level+1) + "\"byte_perline\": {} ,\n".format(self.input_width))
+    self.code_list.append(tab_string*(level+1) + "\"byte_perline\": {},\n".format(self.input_width))
     self.code_list.append(tab_string*(level+1) + "\"byte_perchan\": {}\n".format(self.input_width * self.input_height))
     
     self.code_list.append(tab_string*level + "},\n")
@@ -197,12 +197,12 @@ class gen_sxdla_code():
 
     
     
-    self.code_list.append(tab_string*(level+1) + "\"tile_width\": {} ,\n".format(self.tile_width + tile_left + tile_right))
-    self.code_list.append(tab_string*(level+1) + "\"tile_height\": {} ,\n".format(self.tile_height + tile_top + tile_bottom))
+    self.code_list.append(tab_string*(level+1) + "\"tile_width\": {},\n".format(self.tile_width + tile_left + tile_right))
+    self.code_list.append(tab_string*(level+1) + "\"tile_height\": {},\n".format(self.tile_height + tile_top + tile_bottom))
     
     self.code_list.append(tab_string*(level+1) +  "\"addr\":\"{}\",\n".format(hex(add_addr)))
 
-    self.code_list.append(tab_string*(level+1) + "\"byte_perline\": {} ,\n".format(self.input_width))
+    self.code_list.append(tab_string*(level+1) + "\"byte_perline\": {},\n".format(self.input_width))
     self.code_list.append(tab_string*(level+1) + "\"byte_perchan\": {}\n".format(self.input_width * self.input_height))
     
     self.code_list.append(tab_string*level + "},\n")
@@ -243,8 +243,8 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*level + "\"activate\":\n")
     self.code_list.append(tab_string*level + "{\n")
     
-    self.code_list.append(tab_string*(level + 1) + "\"pos_slope\": {},\n".format(str(1)))
-    self.code_list.append(tab_string*(level + 1) + "\"neg_slope\": {},\n".format(str(1)))
+    self.code_list.append(tab_string*(level + 1) + "\"pos_slope\": {},\n".format(str(1.0)))
+    self.code_list.append(tab_string*(level + 1) + "\"neg_slope\": {},\n".format(str(1.0)))
     self.code_list.append(tab_string*(level + 1) + "\"pos_thd\": {}\n".format(str(255)))
 
     self.code_list.append(tab_string*level + "},\n")
@@ -258,8 +258,8 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*level + "\"quantize\":\n")
     self.code_list.append(tab_string*level + "{\n")
     
-    self.code_list.append(tab_string*(level +1) + "\"pos_slope\": {},\n".format(str(1)))
-    self.code_list.append(tab_string*(level +1) + "\"neg_slope\": {}\n".format(str(1)))
+    self.code_list.append(tab_string*(level +1) + "\"pos_slope\": {},\n".format(str(1.0)))
+    self.code_list.append(tab_string*(level +1) + "\"neg_slope\": {}\n".format(str(1.0)))
 
     self.code_list.append(tab_string*level + "}\n")
 
@@ -281,7 +281,7 @@ class gen_sxdla_code():
   
 
 if __name__ == "__main__":
-  code = gen_sxdla_code(
+  layer1_conv7x7 = gen_sxdla_code(
     "layer1_conv7x7",
     "weight",
     0x1000000,
@@ -296,7 +296,7 @@ if __name__ == "__main__":
     ["conv3","activate","maxpool"]
   )
 
-  code2 = gen_sxdla_code(
+  layer2_average_pool = gen_sxdla_code(
     "layer2_average_pool",
     "weight",
     0x1000000,
@@ -311,8 +311,8 @@ if __name__ == "__main__":
     ["conv3","maxpool"]
   )
   
-  code3 = gen_sxdla_code(
-    "layer3_56*56_1",
+  layer3_56 = gen_sxdla_code(
+    "layer3_56*56_resblock_1",
     "weight",
     0x1031000,
     0x1000000,
@@ -323,25 +323,11 @@ if __name__ == "__main__":
     1,
     64,
     64,
-    ["conv3","maxpool"]
-  )
-  code4 = gen_sxdla_code(
-    "layer4_56*56_2",
-    "weight",
-    0x1031000,
-    0x1031000,
-    56,
-    56,
-    56,
-    56,
-    1,
-    64,
-    64,
-    ["conv3","maxpool"]
+    ["conv3","activate"]
   )
   
-  code5 = gen_sxdla_code(
-    "layer5_56*56_3",
+  layer4_56 = gen_sxdla_code(
+    "layer4_56*56_resblock_2",
     "weight",
     0x1031000,
     0x1031000,
@@ -352,21 +338,99 @@ if __name__ == "__main__":
     1,
     64,
     64,
-    ["conv3","maxpool"]
-  )
-  
-  code6 = gen_sxdla_code(
-    "layer6_56*56_3_resblock",
-    "weight",
-    0x1031000,
-    0x1031000,
-    56,
-    56,
-    56,
-    56,
-    1,
-    64,
-    64,
-    ["conv3","add", "maxpool"],
+    ["conv3","add", "activate", "maxpool"],
     0x1000000
+  )
+
+  layer5_28 = gen_sxdla_code(
+    "layer5_28*28_resblock_1",
+    "weight",
+    0x1000000,
+    0x1031000,
+    28,
+    28,
+    28,
+    28,
+    1,
+    64,
+    128,
+    ["conv3","activate"] 
+  )
+
+  layer6_28 = gen_sxdla_code(
+    "layer6_28*28_resblock_2",
+    "weight",
+    0x1000000,
+    0x1000000,
+    28,
+    28,
+    28,
+    28,
+    1,
+    128,
+    128,
+    ["conv3","add", "activate", "maxpool"],
+    0x1031000
+  )
+
+  layer7_14 = gen_sxdla_code(
+    "layer7_14*14_resblock_1",
+    "weight",
+    0x1031000,
+    0x1000000,
+    14,
+    14,
+    14,
+    14,
+    1,
+    128,
+    256,
+    ["conv3","activate"]
+  )
+  
+  layer8_14 = gen_sxdla_code(
+    "layer8_14*14_resblock_2",
+    "weight",
+    0x1031000,
+    0x1031000,
+    14,
+    14,
+    14,
+    14,
+    1,
+    256,
+    256,
+    ["conv3","add", "activate", "maxpool"],
+    0x1000000
+  )
+
+  layer9_7 = gen_sxdla_code(
+    "layer9_7*7_resblock_1",
+    "weight",
+    0x1000000,
+    0x1031000,
+    7,
+    7,
+    7,
+    7,
+    1,
+    256,
+    512,
+    ["conv3","activate"]
+  )
+
+  layer10_7 = gen_sxdla_code(
+    "layer10_7*7resblock_2",
+    "weight",
+    0x1000000,
+    0x1000000,
+    7,
+    7,
+    7,
+    7,
+    1,
+    512,
+    512,
+    ["conv3","add", "activate", "maxpool"],
+    0x1031000
   )
