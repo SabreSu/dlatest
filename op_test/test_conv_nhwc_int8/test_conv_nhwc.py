@@ -56,11 +56,10 @@ def verify_conv_nhwc_int8(feature_map_shape, weight_shape, origin_file, weight_f
   write_weight_file(weight_list_str, "weight.dat")
   
   # 2. Call assembler and generate a "bin" file.
-  subprocess.run("as {} -w {} -o {}".format(origin_file, weight_file, "bin.dat"), shell=True)
+  subprocess.run("../../assembler/as operators/{}  {}  {}".format(origin_file, weight_file, "bin.dat"), shell=True)
   
   # 3. Remove the 64 bit data in the header of the bin file.
-  with open('test.txt','a+',encoding='utf-8') as test:
-    test.truncate(0)
+  remove_head(file_name = "byte_per_line")
   
   # 4. Generate input data and write to "data.dat" file.
   feature_map = gen_feature_map_data(feature_map_shape, dtype)
@@ -76,9 +75,9 @@ def verify_conv_nhwc_int8(feature_map_shape, weight_shape, origin_file, weight_f
   verify_result(b_np, feature_map_shape, "mem.dat")
 
 def test_conv_nhwc_int8():
-  verify_conv_nhwc_int8([1, 56, 56, 1], [3, 3, 1, 1], "conv_nhwc_int8_56", "weight.dat")
-  verify_conv_nhwc_int8([1, 28, 28, 1], [3, 3, 1, 1], "conv_nhwc_int8_28", "weight.dat")
-  verify_conv_nhwc_int8([1, 64, 64, 1], [3, 3, 1, 1], "conv_nhwc_int8_64", "weight.dat")
+  verify_conv_nhwc_int8([1, 56, 56, 1], [3, 3, 512, 512], "conv_nhwc_int8_56", "weight.dat")
+  # verify_conv_nhwc_int8([1, 28, 28, 1], [3, 3, 1, 1], "conv_nhwc_int8_28", "weight.dat")
+  # verify_conv_nhwc_int8([1, 64, 64, 1], [3, 3, 1, 1], "conv_nhwc_int8_64", "weight.dat")
   # clean up temporary files.
   clean_up_tmp_files()
 

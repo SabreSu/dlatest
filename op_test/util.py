@@ -292,3 +292,12 @@ def clean_up_tmp_files():
   # if os.path.exists(as_out_file):
   #   os.remove(as_out_file)
   #   print(as_out_file, "has been removed.")
+
+def remove_head(file_name = "byte_per_line"):
+  with open(file_name, 'r') as _file:
+    cmds = _file.readlines()
+    
+  with open("cmd.dat", 'w') as _file:
+    for cmd in cmds[8:]:
+      _file.write(cmd)
+      

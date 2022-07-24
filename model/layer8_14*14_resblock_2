@@ -92,13 +92,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -199,13 +199,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -306,13 +306,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -413,13 +413,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -520,13 +520,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -627,13 +627,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -734,13 +734,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -841,13 +841,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -948,13 +948,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1055,13 +1055,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1162,13 +1162,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1269,13 +1269,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1376,13 +1376,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1483,13 +1483,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1590,13 +1590,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1697,13 +1697,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1804,13 +1804,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -1911,13 +1911,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2018,13 +2018,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2125,13 +2125,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2232,13 +2232,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2339,13 +2339,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2446,13 +2446,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2553,13 +2553,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2660,13 +2660,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2767,13 +2767,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2874,13 +2874,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -2981,13 +2981,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3088,13 +3088,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3195,13 +3195,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3302,13 +3302,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3409,13 +3409,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3516,13 +3516,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3623,13 +3623,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3730,13 +3730,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3837,13 +3837,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -3944,13 +3944,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4051,13 +4051,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4158,13 +4158,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4265,13 +4265,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4372,13 +4372,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4479,13 +4479,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4586,13 +4586,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4693,13 +4693,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4800,13 +4800,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -4907,13 +4907,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5014,13 +5014,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5121,13 +5121,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5228,13 +5228,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5335,13 +5335,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5442,13 +5442,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5549,13 +5549,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5656,13 +5656,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5763,13 +5763,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5870,13 +5870,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -5977,13 +5977,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6084,13 +6084,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6191,13 +6191,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6298,13 +6298,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6405,13 +6405,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6512,13 +6512,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6619,13 +6619,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6726,13 +6726,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6833,13 +6833,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -6940,13 +6940,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7047,13 +7047,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7154,13 +7154,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7261,13 +7261,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7368,13 +7368,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7475,13 +7475,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7582,13 +7582,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7689,13 +7689,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7796,13 +7796,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -7903,13 +7903,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8010,13 +8010,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8117,13 +8117,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8224,13 +8224,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8331,13 +8331,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8438,13 +8438,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8545,13 +8545,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8652,13 +8652,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8759,13 +8759,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8866,13 +8866,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -8973,13 +8973,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9080,13 +9080,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9187,13 +9187,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9294,13 +9294,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9401,13 +9401,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9508,13 +9508,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9615,13 +9615,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9722,13 +9722,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9829,13 +9829,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -9936,13 +9936,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10043,13 +10043,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10150,13 +10150,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10257,13 +10257,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10364,13 +10364,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10471,13 +10471,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10578,13 +10578,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10685,13 +10685,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10792,13 +10792,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -10899,13 +10899,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11006,13 +11006,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11113,13 +11113,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11220,13 +11220,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11327,13 +11327,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11434,13 +11434,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11541,13 +11541,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11648,13 +11648,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11755,13 +11755,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11862,13 +11862,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -11969,13 +11969,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12076,13 +12076,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12183,13 +12183,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12290,13 +12290,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12397,13 +12397,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12504,13 +12504,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12611,13 +12611,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12718,13 +12718,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12825,13 +12825,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -12932,13 +12932,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13039,13 +13039,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13146,13 +13146,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13253,13 +13253,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13360,13 +13360,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13467,13 +13467,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13574,13 +13574,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13681,13 +13681,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13788,13 +13788,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -13895,13 +13895,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14002,13 +14002,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14109,13 +14109,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14216,13 +14216,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14323,13 +14323,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14430,13 +14430,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14537,13 +14537,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14644,13 +14644,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14751,13 +14751,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14858,13 +14858,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -14965,13 +14965,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15072,13 +15072,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15179,13 +15179,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15286,13 +15286,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15393,13 +15393,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15500,13 +15500,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15607,13 +15607,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15714,13 +15714,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15821,13 +15821,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -15928,13 +15928,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16035,13 +16035,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16142,13 +16142,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16249,13 +16249,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16356,13 +16356,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16463,13 +16463,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16570,13 +16570,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16677,13 +16677,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16784,13 +16784,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16891,13 +16891,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -16998,13 +16998,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17105,13 +17105,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17212,13 +17212,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17319,13 +17319,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17426,13 +17426,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17533,13 +17533,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17640,13 +17640,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17747,13 +17747,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17854,13 +17854,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -17961,13 +17961,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18068,13 +18068,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18175,13 +18175,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18282,13 +18282,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18389,13 +18389,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18496,13 +18496,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18603,13 +18603,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18710,13 +18710,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18817,13 +18817,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -18924,13 +18924,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19031,13 +19031,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19138,13 +19138,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19245,13 +19245,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19352,13 +19352,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19459,13 +19459,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19566,13 +19566,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19673,13 +19673,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19780,13 +19780,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19887,13 +19887,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -19994,13 +19994,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20101,13 +20101,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20208,13 +20208,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20315,13 +20315,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20422,13 +20422,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20529,13 +20529,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20636,13 +20636,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20743,13 +20743,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20850,13 +20850,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -20957,13 +20957,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21064,13 +21064,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21171,13 +21171,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21278,13 +21278,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21385,13 +21385,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21492,13 +21492,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21599,13 +21599,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21706,13 +21706,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21813,13 +21813,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -21920,13 +21920,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22027,13 +22027,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22134,13 +22134,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22241,13 +22241,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22348,13 +22348,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22455,13 +22455,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22562,13 +22562,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22669,13 +22669,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22776,13 +22776,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22883,13 +22883,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -22990,13 +22990,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23097,13 +23097,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23204,13 +23204,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23311,13 +23311,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23418,13 +23418,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23525,13 +23525,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23632,13 +23632,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23739,13 +23739,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23846,13 +23846,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -23953,13 +23953,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24060,13 +24060,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24167,13 +24167,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24274,13 +24274,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24381,13 +24381,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24488,13 +24488,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24595,13 +24595,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24702,13 +24702,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24809,13 +24809,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -24916,13 +24916,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25023,13 +25023,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25130,13 +25130,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25237,13 +25237,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25344,13 +25344,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25451,13 +25451,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25558,13 +25558,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25665,13 +25665,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25772,13 +25772,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25879,13 +25879,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -25986,13 +25986,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26093,13 +26093,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26200,13 +26200,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26307,13 +26307,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26414,13 +26414,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26521,13 +26521,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26628,13 +26628,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26735,13 +26735,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26842,13 +26842,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -26949,13 +26949,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -27056,13 +27056,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -27163,13 +27163,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -27270,13 +27270,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":
@@ -27377,13 +27377,13 @@
         "activate":
         {
           "pos_slope": "1.0",
-          "neg_slope": "1.0",
+          "neg_slope": "1.0"
         },
         "maxpool":{},
         "quantize":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
         }
       },
       "write_back":

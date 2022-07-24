@@ -16,11 +16,10 @@ def verify_conv_nhwc_maxpool(feature_map_shape, weight_shape, origin_file, weigh
   write_weight_file(weight_list_str, "weight.dat")
   
   # 2. Call assembler and generate a "bin" file.
-  subprocess.run("as {} -w {} -o {}".format(origin_file, weight_file, "bin.dat"), shell=True)
-  
+  subprocess.run("../../assembler/as operators/{} {} {}".format(origin_file, weight_file, "bin.dat"), shell=True)
+
   # 3. Remove the 64 bit data in the header of the bin file.
-  with open('test.txt','a+',encoding='utf-8') as test:
-    test.truncate(0)
+  remove_head(file_name = "byte_per_line")
   
   # 4. Generate input data and write to "data.dat" file.
   feature_map = gen_feature_map_data(feature_map_shape, dtype)
@@ -48,11 +47,11 @@ def verify_conv_nhwc_maxpool(feature_map_shape, weight_shape, origin_file, weigh
     layout = "NCHW"
   )
   b_pool_np_trans = np.transpose(b_pool_np, (0, 2, 3, 1))
-  subprocess.run("cp data.dat mem.dat", shell=True)
+  # subprocess.run("cp data.dat mem.dat", shell=True)
   verify_result(b_pool_np_trans, feature_map_shape, "mem.dat")
 
 def test_conv_nhwc_maxpool():
-  verify_conv_nhwc_maxpool([1, 112, 112, 1], [3, 3, 3, 3], "conv_nhwc_tiling_maxpool_112", "weight.dat")
+  # verify_conv_nhwc_maxpool([1, 112, 112, 1], [3, 3, 3, 3], "conv_nhwc_tiling_maxpool_112", "weight.dat")
   verify_conv_nhwc_maxpool([1, 64, 64, 1], [3, 3, 3, 3], "conv_nhwc_maxpool_64", "weight.dat")
   # clean up temporary files.
   clean_up_tmp_files()
