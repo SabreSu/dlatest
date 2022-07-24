@@ -65,11 +65,7 @@
           "chan_num": 1,
           "pad": [1, 1, 1, 1]
         },
-        "activate":
-        {
-          "pos_slope": "1.0",
-          "neg_slope": "1.0"
-        },
+        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
@@ -147,11 +143,7 @@
           "chan_num": 1,
           "pad": [1, 1, 1, 1]
         },
-        "activate":
-        {
-          "pos_slope": "1.0",
-          "neg_slope": "1.0"
-        },
+        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
@@ -229,11 +221,7 @@
           "chan_num": 1,
           "pad": [1, 1, 1, 1]
         },
-        "activate":
-        {
-          "pos_slope": "1.0",
-          "neg_slope": "1.0"
-        },
+        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",

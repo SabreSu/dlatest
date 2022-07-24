@@ -1,0 +1,125 @@
+Help on module util:
+
+NAME
+    util - Test the required tool function code.
+
+FUNCTIONS
+    call_assembler(cmd_str, bin_name, echp_print=1)
+        Call the assembler to generate the binaries.
+        
+        Args:
+            cmd_str (string): Commands that are executed at the command line.
+            bin_name (string): The generated binary file name.
+            echp_print (int, optional): Whether to print commands. Defaults to 1.
+        
+        Returns:
+            _type_: _description_
+    
+    clean_up_tmp_files()
+        Clean up temporary files.
+    
+    gen_feature_map_data(dshape, dtype)
+        Generate feature map data.
+        
+        Args:
+            dshape (list): The data shape of feature map.
+            dtype (string): The data type if feature map.
+        
+        Returns:
+            ndarray[]: A data list of type numpy.
+    
+    gen_weight_data(dshape, dtype)
+        Generate weight data
+        
+        Args:
+            dtype (string): The type of weight.
+            dshape (list): The data shape of weight.
+        
+        Returns:
+            ndarray[]: A data list of type numpy.
+    
+    gen_weight_data_str(weight)
+        _summary_
+        
+        Args:
+            weight (ndarray[]): A data list of type numpy.
+        
+        Returns:
+            list[string]: A string list in hexadecimal form.
+    
+    get_cmd_fields(bin_name)
+        Get each command field from the binary
+        
+        Args:
+            bin_name (string): The generated binary file name.
+        
+        Returns:
+            dict{qword:field}: Mapping from qword to field.
+    
+    numpyint8_2_hexstring(bytes_list)
+        Convert numpy data of type int8 to hexadecimal string form.
+        
+        Args:
+            bytes_list (list[bytes]): bytes list.
+        
+        Returns:
+            list[string]: hexadecimal string list.
+    
+    translate_2_little(_str='')
+        Converts the hexadecimal representation of a command to small end mode.
+        
+        Args:
+            str (str, optional): The string that needs to be converted. Defaults to "".
+        
+        Returns:
+            list[str]: An list of converted strings.
+    
+    translate_cmd_data_form(param_dic)
+        Translate command data form.
+        
+        Args:
+            param_dic (dict): Mapping from qword to field.
+        
+        Returns:
+            dict{qword:field}: Mapping from qword to field.
+    
+    verify_result(python_result, result_shape, file_name='mem.dat')
+        Verify dla's data
+        
+        Args:
+            python_result (ndarray): The result of python running.
+            result_shape (_type_): The shape of result.
+            file_name (str, optional): The file name of dla's result. Defaults to "mem.dat".
+    
+    write_command(param_dic, weight, file_name='cmd.dat')
+        Write the command data to the "cmd.dat" file.
+        
+        Args:
+            param_dic (dict, optional): Mapping from qword to field.
+            weight (list, optional): A string list in hexadecimal form.
+            file_name (str, optional): The output file. Defaults to "cmd.dat".
+    
+    write_data(feature_map, file_name='data.dat')
+        Write the feature map data to the "cmd.dat" file.
+        
+        Args:
+            feature_map (list, optional): The data of feature map.
+            file_name (str, optional): The file name of feature map. Defaults to "data.dat".
+    
+    write_weight_file(weight_list_str, file_name='weight')
+        _summary_
+        
+        Args:
+            weight_list_str (list): The list of string of weight.
+            file_name (str, optional): The file name to write. Defaults to "weight".
+        
+        Returns:
+            string: file name
+
+DATA
+    QWORD_LIST = ['Config', 'Conv size', 'Accu B Size', 'Accu C Size', 'Wb...
+
+FILE
+    /home/susb/sxdla/op_test/util.py
+
+

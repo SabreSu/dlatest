@@ -16,7 +16,7 @@
                     {
                         "chan_num": 1,
                         "pad": [1,1,1,1]
-                    }
+                    },
                     "quantize":
                     {
                         "pos_slope" : "1",

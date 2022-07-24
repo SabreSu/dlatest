@@ -34,7 +34,7 @@ class gen_sxdla_code():
     # self.code_list.append(self.gen_weight(level+1))
     
     # program head
-    self.code_list.append(tab_string + "\"program\":\n")
+    self.code_list.append(tab_string + "\"progarm\":\n")
     self.code_list.append(tab_string + "[\n")
 
     self.gen_out_channel(level+1)
@@ -231,7 +231,7 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*level + "{\n")
     
     self.code_list.append(tab_string*(level + 1) + "\"chan_num\": {},\n".format(str(channel_num)))
-    self.code_list.append(tab_string*(level + 1) + "\"padding\": {}\n".format(str(padding)))
+    self.code_list.append(tab_string*(level + 1) + "\"pad\": {}\n".format(str(padding)))
     
     if conv_last:
       self.code_list.append(tab_string*level + "}\n")
@@ -243,9 +243,9 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*level + "\"activate\":\n")
     self.code_list.append(tab_string*level + "{\n")
     
-    self.code_list.append(tab_string*(level + 1) + "\"pos_slope\": {},\n".format(str(1.0)))
-    self.code_list.append(tab_string*(level + 1) + "\"neg_slope\": {},\n".format(str(1.0)))
-    self.code_list.append(tab_string*(level + 1) + "\"pos_thd\": {}\n".format(str(255)))
+    self.code_list.append(tab_string*(level + 1) + "\"pos_slope\": \"{}\",\n".format(str(1.0)))
+    self.code_list.append(tab_string*(level + 1) + "\"neg_slope\": \"{}\"\n".format(str(1.0)))
+    # self.code_list.append(tab_string*(level + 1) + "\"pos_thd\": {}\n".format(str(255)))
 
     self.code_list.append(tab_string*level + "},\n")
 
@@ -258,8 +258,8 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*level + "\"quantize\":\n")
     self.code_list.append(tab_string*level + "{\n")
     
-    self.code_list.append(tab_string*(level +1) + "\"pos_slope\": {},\n".format(str(1.0)))
-    self.code_list.append(tab_string*(level +1) + "\"neg_slope\": {}\n".format(str(1.0)))
+    self.code_list.append(tab_string*(level +1) + "\"pos_slope\": \"{}\",\n".format(str(1.0)))
+    self.code_list.append(tab_string*(level +1) + "\"neg_slope\": \"{}\"\n".format(str(1.0)))
 
     self.code_list.append(tab_string*level + "}\n")
 

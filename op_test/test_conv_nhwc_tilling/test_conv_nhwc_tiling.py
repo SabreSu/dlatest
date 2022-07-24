@@ -16,7 +16,7 @@ def verify_conv_nhwc_tiling(feature_map_shape, weight_shape, origin_file, weight
   write_weight_file(weight_list_str, "weight.dat")
   
   # 2. Call assembler and generate a "bin" file.
-  subprocess.run("as {} -w {} -o {}".format(origin_file, weight_file, "bin.dat"), shell=True)
+  subprocess.run("as {}   {}   {}".format(origin_file, weight_file, "bin.dat"), shell=True)
   
   # 3. Remove the 64 bit data in the header of the bin file.
   with open('test.txt','a+',encoding='utf-8') as test:

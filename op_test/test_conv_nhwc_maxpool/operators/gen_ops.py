@@ -6,7 +6,7 @@ from model.gen_dla import *
 
 if __name__ == "__main__":
   tiling_test = gen_sxdla_code(
-    "conv_nhwc_tiling_activate_112",
+    "conv_nhwc_tiling_maxpool_112",
     "weight",
     0x1000000,
     0x100000,
@@ -21,7 +21,7 @@ if __name__ == "__main__":
   )
 
   conv_activate = gen_sxdla_code(
-    "conv_nhwc_tiling_activate_64",
+    "conv_nhwc_maxpool_64",
     "weight",
     0x1000000,
     0x100000,

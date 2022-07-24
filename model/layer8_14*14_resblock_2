@@ -1,5 +1,5 @@
 {
-  "program":
+  "progarm":
   [
     {
       "input_addr":
@@ -23,7 +23,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -55,7 +55,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -87,13 +87,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -131,7 +130,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -163,7 +162,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -195,13 +194,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -239,7 +237,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -271,7 +269,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -303,13 +301,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -347,7 +344,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -379,7 +376,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -411,13 +408,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -455,7 +451,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -487,7 +483,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -519,13 +515,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -563,7 +558,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -595,7 +590,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -627,13 +622,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -671,7 +665,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -703,7 +697,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -735,13 +729,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -779,7 +772,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -811,7 +804,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -843,13 +836,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -887,7 +879,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -919,7 +911,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -951,13 +943,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -995,7 +986,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1027,7 +1018,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1059,13 +1050,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1103,7 +1093,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1135,7 +1125,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1167,13 +1157,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1211,7 +1200,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1243,7 +1232,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1275,13 +1264,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1319,7 +1307,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1351,7 +1339,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1383,13 +1371,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1427,7 +1414,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1459,7 +1446,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1491,13 +1478,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1535,7 +1521,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1567,7 +1553,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1599,13 +1585,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1643,7 +1628,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1675,7 +1660,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1707,13 +1692,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1751,7 +1735,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1783,7 +1767,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1815,13 +1799,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1859,7 +1842,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1891,7 +1874,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1923,13 +1906,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -1967,7 +1949,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -1999,7 +1981,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2031,13 +2013,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2075,7 +2056,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2107,7 +2088,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2139,13 +2120,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2183,7 +2163,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2215,7 +2195,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2247,13 +2227,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2291,7 +2270,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2323,7 +2302,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2355,13 +2334,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2399,7 +2377,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2431,7 +2409,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2463,13 +2441,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2507,7 +2484,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2539,7 +2516,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2571,13 +2548,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2615,7 +2591,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2647,7 +2623,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2679,13 +2655,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2723,7 +2698,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2755,7 +2730,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2787,13 +2762,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2831,7 +2805,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2863,7 +2837,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2895,13 +2869,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -2939,7 +2912,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -2971,7 +2944,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3003,13 +2976,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3047,7 +3019,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3079,7 +3051,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3111,13 +3083,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3155,7 +3126,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3187,7 +3158,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3219,13 +3190,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3263,7 +3233,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3295,7 +3265,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3327,13 +3297,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3371,7 +3340,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3403,7 +3372,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3435,13 +3404,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3479,7 +3447,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3511,7 +3479,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3543,13 +3511,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3587,7 +3554,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3619,7 +3586,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3651,13 +3618,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3695,7 +3661,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3727,7 +3693,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3759,13 +3725,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3803,7 +3768,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3835,7 +3800,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3867,13 +3832,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -3911,7 +3875,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3943,7 +3907,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -3975,13 +3939,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4019,7 +3982,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4051,7 +4014,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4083,13 +4046,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4127,7 +4089,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4159,7 +4121,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4191,13 +4153,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4235,7 +4196,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4267,7 +4228,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4299,13 +4260,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4343,7 +4303,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4375,7 +4335,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4407,13 +4367,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4451,7 +4410,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4483,7 +4442,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4515,13 +4474,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4559,7 +4517,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4591,7 +4549,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4623,13 +4581,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4667,7 +4624,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4699,7 +4656,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4731,13 +4688,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4775,7 +4731,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4807,7 +4763,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4839,13 +4795,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4883,7 +4838,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4915,7 +4870,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -4947,13 +4902,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -4991,7 +4945,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5023,7 +4977,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5055,13 +5009,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5099,7 +5052,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5131,7 +5084,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5163,13 +5116,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5207,7 +5159,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5239,7 +5191,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5271,13 +5223,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5315,7 +5266,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5347,7 +5298,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5379,13 +5330,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5423,7 +5373,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5455,7 +5405,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5487,13 +5437,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5531,7 +5480,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5563,7 +5512,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5595,13 +5544,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5639,7 +5587,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5671,7 +5619,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5703,13 +5651,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5747,7 +5694,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5779,7 +5726,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5811,13 +5758,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5855,7 +5801,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5887,7 +5833,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5919,13 +5865,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -5963,7 +5908,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -5995,7 +5940,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6027,13 +5972,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6071,7 +6015,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6103,7 +6047,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6135,13 +6079,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6179,7 +6122,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6211,7 +6154,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6243,13 +6186,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6287,7 +6229,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6319,7 +6261,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6351,13 +6293,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6395,7 +6336,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6427,7 +6368,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6459,13 +6400,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6503,7 +6443,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6535,7 +6475,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6567,13 +6507,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6611,7 +6550,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6643,7 +6582,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6675,13 +6614,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6719,7 +6657,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6751,7 +6689,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6783,13 +6721,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6827,7 +6764,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6859,7 +6796,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6891,13 +6828,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -6935,7 +6871,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6967,7 +6903,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -6999,13 +6935,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7043,7 +6978,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7075,7 +7010,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7107,13 +7042,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7151,7 +7085,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7183,7 +7117,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7215,13 +7149,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7259,7 +7192,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7291,7 +7224,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7323,13 +7256,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7367,7 +7299,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7399,7 +7331,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7431,13 +7363,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7475,7 +7406,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7507,7 +7438,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7539,13 +7470,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7583,7 +7513,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7615,7 +7545,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7647,13 +7577,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7691,7 +7620,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7723,7 +7652,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7755,13 +7684,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7799,7 +7727,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7831,7 +7759,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7863,13 +7791,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -7907,7 +7834,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7939,7 +7866,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -7971,13 +7898,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8015,7 +7941,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8047,7 +7973,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8079,13 +8005,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8123,7 +8048,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8155,7 +8080,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8187,13 +8112,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8231,7 +8155,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8263,7 +8187,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8295,13 +8219,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8339,7 +8262,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8371,7 +8294,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8403,13 +8326,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8447,7 +8369,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8479,7 +8401,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8511,13 +8433,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8555,7 +8476,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8587,7 +8508,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8619,13 +8540,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8663,7 +8583,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8695,7 +8615,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8727,13 +8647,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8771,7 +8690,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8803,7 +8722,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8835,13 +8754,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8879,7 +8797,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8911,7 +8829,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -8943,13 +8861,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -8987,7 +8904,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9019,7 +8936,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9051,13 +8968,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9095,7 +9011,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9127,7 +9043,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9159,13 +9075,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9203,7 +9118,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9235,7 +9150,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9267,13 +9182,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9311,7 +9225,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9343,7 +9257,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9375,13 +9289,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9419,7 +9332,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9451,7 +9364,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9483,13 +9396,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9527,7 +9439,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9559,7 +9471,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9591,13 +9503,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9635,7 +9546,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9667,7 +9578,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9699,13 +9610,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9743,7 +9653,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9775,7 +9685,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9807,13 +9717,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9851,7 +9760,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9883,7 +9792,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9915,13 +9824,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -9959,7 +9867,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -9991,7 +9899,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10023,13 +9931,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10067,7 +9974,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10099,7 +10006,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10131,13 +10038,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10175,7 +10081,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10207,7 +10113,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10239,13 +10145,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10283,7 +10188,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10315,7 +10220,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10347,13 +10252,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10391,7 +10295,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10423,7 +10327,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10455,13 +10359,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10499,7 +10402,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10531,7 +10434,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10563,13 +10466,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10607,7 +10509,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10639,7 +10541,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10671,13 +10573,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10715,7 +10616,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10747,7 +10648,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10779,13 +10680,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10823,7 +10723,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10855,7 +10755,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10887,13 +10787,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -10931,7 +10830,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10963,7 +10862,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -10995,13 +10894,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11039,7 +10937,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11071,7 +10969,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11103,13 +11001,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11147,7 +11044,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11179,7 +11076,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11211,13 +11108,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11255,7 +11151,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11287,7 +11183,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11319,13 +11215,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11363,7 +11258,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11395,7 +11290,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11427,13 +11322,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11471,7 +11365,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11503,7 +11397,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11535,13 +11429,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11579,7 +11472,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11611,7 +11504,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11643,13 +11536,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11687,7 +11579,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11719,7 +11611,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11751,13 +11643,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11795,7 +11686,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11827,7 +11718,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11859,13 +11750,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -11903,7 +11793,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11935,7 +11825,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -11967,13 +11857,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12011,7 +11900,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12043,7 +11932,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12075,13 +11964,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12119,7 +12007,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12151,7 +12039,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12183,13 +12071,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12227,7 +12114,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12259,7 +12146,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12291,13 +12178,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12335,7 +12221,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12367,7 +12253,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12399,13 +12285,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12443,7 +12328,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12475,7 +12360,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12507,13 +12392,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12551,7 +12435,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12583,7 +12467,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12615,13 +12499,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12659,7 +12542,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12691,7 +12574,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12723,13 +12606,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12767,7 +12649,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12799,7 +12681,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12831,13 +12713,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12875,7 +12756,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12907,7 +12788,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -12939,13 +12820,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -12983,7 +12863,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13015,7 +12895,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13047,13 +12927,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13091,7 +12970,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13123,7 +13002,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13155,13 +13034,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13199,7 +13077,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13231,7 +13109,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13263,13 +13141,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13307,7 +13184,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13339,7 +13216,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13371,13 +13248,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13415,7 +13291,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13447,7 +13323,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13479,13 +13355,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13523,7 +13398,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13555,7 +13430,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13587,13 +13462,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13631,7 +13505,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13663,7 +13537,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13695,13 +13569,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13739,7 +13612,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13771,7 +13644,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13803,13 +13676,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13847,7 +13719,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13879,7 +13751,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13911,13 +13783,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -13955,7 +13826,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -13987,7 +13858,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14019,13 +13890,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14063,7 +13933,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14095,7 +13965,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14127,13 +13997,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14171,7 +14040,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14203,7 +14072,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14235,13 +14104,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14279,7 +14147,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14311,7 +14179,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14343,13 +14211,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14387,7 +14254,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14419,7 +14286,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14451,13 +14318,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14495,7 +14361,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14527,7 +14393,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14559,13 +14425,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14603,7 +14468,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14635,7 +14500,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14667,13 +14532,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14711,7 +14575,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14743,7 +14607,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14775,13 +14639,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14819,7 +14682,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14851,7 +14714,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14883,13 +14746,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -14927,7 +14789,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14959,7 +14821,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -14991,13 +14853,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15035,7 +14896,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15067,7 +14928,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15099,13 +14960,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15143,7 +15003,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15175,7 +15035,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15207,13 +15067,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15251,7 +15110,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15283,7 +15142,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15315,13 +15174,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15359,7 +15217,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15391,7 +15249,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15423,13 +15281,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15467,7 +15324,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15499,7 +15356,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15531,13 +15388,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15575,7 +15431,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15607,7 +15463,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15639,13 +15495,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15683,7 +15538,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15715,7 +15570,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15747,13 +15602,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15791,7 +15645,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15823,7 +15677,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15855,13 +15709,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -15899,7 +15752,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15931,7 +15784,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -15963,13 +15816,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16007,7 +15859,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16039,7 +15891,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16071,13 +15923,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16115,7 +15966,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16147,7 +15998,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16179,13 +16030,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16223,7 +16073,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16255,7 +16105,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16287,13 +16137,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16331,7 +16180,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16363,7 +16212,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16395,13 +16244,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16439,7 +16287,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16471,7 +16319,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16503,13 +16351,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16547,7 +16394,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16579,7 +16426,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16611,13 +16458,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16655,7 +16501,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16687,7 +16533,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16719,13 +16565,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16763,7 +16608,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16795,7 +16640,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16827,13 +16672,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16871,7 +16715,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16903,7 +16747,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -16935,13 +16779,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -16979,7 +16822,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17011,7 +16854,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17043,13 +16886,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17087,7 +16929,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17119,7 +16961,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17151,13 +16993,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17195,7 +17036,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17227,7 +17068,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17259,13 +17100,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17303,7 +17143,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17335,7 +17175,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17367,13 +17207,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17411,7 +17250,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17443,7 +17282,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17475,13 +17314,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17519,7 +17357,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17551,7 +17389,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17583,13 +17421,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17627,7 +17464,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17659,7 +17496,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17691,13 +17528,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17735,7 +17571,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17767,7 +17603,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17799,13 +17635,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17843,7 +17678,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17875,7 +17710,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17907,13 +17742,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -17951,7 +17785,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -17983,7 +17817,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18015,13 +17849,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18059,7 +17892,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18091,7 +17924,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18123,13 +17956,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18167,7 +17999,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18199,7 +18031,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18231,13 +18063,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18275,7 +18106,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18307,7 +18138,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18339,13 +18170,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18383,7 +18213,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18415,7 +18245,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18447,13 +18277,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18491,7 +18320,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18523,7 +18352,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18555,13 +18384,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18599,7 +18427,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18631,7 +18459,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18663,13 +18491,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18707,7 +18534,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18739,7 +18566,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18771,13 +18598,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18815,7 +18641,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18847,7 +18673,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18879,13 +18705,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -18923,7 +18748,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18955,7 +18780,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -18987,13 +18812,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19031,7 +18855,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19063,7 +18887,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19095,13 +18919,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19139,7 +18962,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19171,7 +18994,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19203,13 +19026,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19247,7 +19069,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19279,7 +19101,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19311,13 +19133,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19355,7 +19176,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19387,7 +19208,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19419,13 +19240,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19463,7 +19283,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19495,7 +19315,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19527,13 +19347,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19571,7 +19390,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19603,7 +19422,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19635,13 +19454,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19679,7 +19497,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19711,7 +19529,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19743,13 +19561,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19787,7 +19604,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19819,7 +19636,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19851,13 +19668,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -19895,7 +19711,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19927,7 +19743,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -19959,13 +19775,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20003,7 +19818,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20035,7 +19850,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20067,13 +19882,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20111,7 +19925,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20143,7 +19957,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20175,13 +19989,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20219,7 +20032,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20251,7 +20064,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20283,13 +20096,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20327,7 +20139,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20359,7 +20171,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20391,13 +20203,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20435,7 +20246,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20467,7 +20278,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20499,13 +20310,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20543,7 +20353,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20575,7 +20385,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20607,13 +20417,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20651,7 +20460,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20683,7 +20492,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20715,13 +20524,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20759,7 +20567,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20791,7 +20599,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20823,13 +20631,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20867,7 +20674,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20899,7 +20706,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -20931,13 +20738,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -20975,7 +20781,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21007,7 +20813,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21039,13 +20845,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21083,7 +20888,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21115,7 +20920,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21147,13 +20952,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21191,7 +20995,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21223,7 +21027,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21255,13 +21059,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21299,7 +21102,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21331,7 +21134,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21363,13 +21166,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21407,7 +21209,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21439,7 +21241,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21471,13 +21273,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21515,7 +21316,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21547,7 +21348,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21579,13 +21380,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21623,7 +21423,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21655,7 +21455,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21687,13 +21487,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21731,7 +21530,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21763,7 +21562,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21795,13 +21594,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21839,7 +21637,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21871,7 +21669,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21903,13 +21701,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -21947,7 +21744,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -21979,7 +21776,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22011,13 +21808,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22055,7 +21851,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22087,7 +21883,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22119,13 +21915,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22163,7 +21958,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22195,7 +21990,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22227,13 +22022,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22271,7 +22065,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22303,7 +22097,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22335,13 +22129,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22379,7 +22172,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22411,7 +22204,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22443,13 +22236,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22487,7 +22279,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22519,7 +22311,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22551,13 +22343,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22595,7 +22386,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22627,7 +22418,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22659,13 +22450,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22703,7 +22493,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22735,7 +22525,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22767,13 +22557,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22811,7 +22600,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22843,7 +22632,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22875,13 +22664,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -22919,7 +22707,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22951,7 +22739,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -22983,13 +22771,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23027,7 +22814,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23059,7 +22846,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23091,13 +22878,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23135,7 +22921,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23167,7 +22953,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23199,13 +22985,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23243,7 +23028,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23275,7 +23060,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23307,13 +23092,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23351,7 +23135,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23383,7 +23167,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23415,13 +23199,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23459,7 +23242,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23491,7 +23274,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23523,13 +23306,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23567,7 +23349,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23599,7 +23381,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23631,13 +23413,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23675,7 +23456,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23707,7 +23488,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23739,13 +23520,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23783,7 +23563,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23815,7 +23595,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23847,13 +23627,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23891,7 +23670,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23923,7 +23702,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -23955,13 +23734,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -23999,7 +23777,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24031,7 +23809,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24063,13 +23841,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24107,7 +23884,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24139,7 +23916,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24171,13 +23948,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24215,7 +23991,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24247,7 +24023,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24279,13 +24055,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24323,7 +24098,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24355,7 +24130,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24387,13 +24162,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24431,7 +24205,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24463,7 +24237,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24495,13 +24269,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24539,7 +24312,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24571,7 +24344,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24603,13 +24376,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24647,7 +24419,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24679,7 +24451,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24711,13 +24483,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24755,7 +24526,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24787,7 +24558,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24819,13 +24590,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24863,7 +24633,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24895,7 +24665,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -24927,13 +24697,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -24971,7 +24740,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25003,7 +24772,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25035,13 +24804,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25079,7 +24847,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25111,7 +24879,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25143,13 +24911,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25187,7 +24954,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25219,7 +24986,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25251,13 +25018,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25295,7 +25061,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25327,7 +25093,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25359,13 +25125,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25403,7 +25168,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25435,7 +25200,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25467,13 +25232,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25511,7 +25275,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25543,7 +25307,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25575,13 +25339,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25619,7 +25382,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25651,7 +25414,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25683,13 +25446,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25727,7 +25489,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25759,7 +25521,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25791,13 +25553,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25835,7 +25596,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25867,7 +25628,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25899,13 +25660,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -25943,7 +25703,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -25975,7 +25735,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26007,13 +25767,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26051,7 +25810,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26083,7 +25842,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26115,13 +25874,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26159,7 +25917,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26191,7 +25949,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26223,13 +25981,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26267,7 +26024,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26299,7 +26056,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26331,13 +26088,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26375,7 +26131,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26407,7 +26163,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26439,13 +26195,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26483,7 +26238,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26515,7 +26270,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26547,13 +26302,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26591,7 +26345,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26623,7 +26377,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26655,13 +26409,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26699,7 +26452,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26731,7 +26484,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26763,13 +26516,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26807,7 +26559,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26839,7 +26591,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26871,13 +26623,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -26915,7 +26666,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26947,7 +26698,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -26979,13 +26730,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -27023,7 +26773,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27055,7 +26805,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27087,13 +26837,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -27131,7 +26880,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27163,7 +26912,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27195,13 +26944,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -27239,7 +26987,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27271,7 +27019,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27303,13 +27051,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -27347,7 +27094,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27379,7 +27126,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27411,13 +27158,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -27455,7 +27201,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27487,7 +27233,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27519,13 +27265,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":
@@ -27563,7 +27308,7 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27595,7 +27340,7 @@
         "conv3":
         {
           "chan_num": 254,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         }
       },
       "write_back":
@@ -27627,13 +27372,12 @@
         "conv3":
         {
           "chan_num": 1,
-          "padding": [1, 1, 1, 1]
+          "pad": [1, 1, 1, 1]
         },
         "activate":
         {
-          "pos_slope": 1.0,
-          "neg_slope": 1.0,
-          "pos_thd": 255
+          "pos_slope": "1.0",
+          "neg_slope": "1.0",
         },
         "maxpool":{},
         "quantize":

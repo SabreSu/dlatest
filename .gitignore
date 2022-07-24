@@ -1,4 +1,6 @@
+byte_per_line
 __pycache__
 *.pyc
 *.dat
 a.out
+
