@@ -75,9 +75,9 @@ def verify_conv_nhwc_int8(feature_map_shape, weight_shape, origin_file, weight_f
   verify_result(b_np, feature_map_shape, "mem.dat")
 
 def test_conv_nhwc_int8():
-  verify_conv_nhwc_int8([1, 56, 56, 1], [3, 3, 512, 512], "conv_nhwc_int8_56", "weight.dat")
-  # verify_conv_nhwc_int8([1, 28, 28, 1], [3, 3, 1, 1], "conv_nhwc_int8_28", "weight.dat")
-  # verify_conv_nhwc_int8([1, 64, 64, 1], [3, 3, 1, 1], "conv_nhwc_int8_64", "weight.dat")
+  verify_conv_nhwc_int8([1, 56, 56, 1], [3, 3, 1, 1], "conv_nhwc_int8_56", "weight.dat")
+  verify_conv_nhwc_int8([1, 28, 28, 1], [3, 3, 1, 1], "conv_nhwc_int8_28", "weight.dat")
+  verify_conv_nhwc_int8([1, 64, 64, 1], [3, 3, 1, 1], "conv_nhwc_int8_64", "weight.dat")
   # clean up temporary files.
   clean_up_tmp_files()
 

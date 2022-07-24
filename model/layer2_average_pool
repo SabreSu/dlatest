@@ -1,5 +1,5 @@
 {
-  "progarm":
+  "program":
   [
     {
       "input_addr":
@@ -65,12 +65,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -143,12 +143,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -221,12 +221,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -299,12 +299,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -377,12 +377,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -455,12 +455,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -533,12 +533,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -611,12 +611,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -689,12 +689,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -767,12 +767,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -845,12 +845,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -923,12 +923,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1001,12 +1001,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1079,12 +1079,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1157,12 +1157,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1235,12 +1235,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1313,12 +1313,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1391,12 +1391,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1469,12 +1469,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1547,12 +1547,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1625,12 +1625,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1703,12 +1703,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1781,12 +1781,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1859,12 +1859,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -1937,12 +1937,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2015,12 +2015,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2093,12 +2093,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2171,12 +2171,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2249,12 +2249,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2327,12 +2327,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2405,12 +2405,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2483,12 +2483,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2561,12 +2561,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2639,12 +2639,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2717,12 +2717,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2795,12 +2795,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2873,12 +2873,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -2951,12 +2951,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3029,12 +3029,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3107,12 +3107,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3185,12 +3185,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3263,12 +3263,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3341,12 +3341,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3419,12 +3419,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3497,12 +3497,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3575,12 +3575,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3653,12 +3653,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3731,12 +3731,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3809,12 +3809,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3887,12 +3887,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -3965,12 +3965,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4043,12 +4043,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4121,12 +4121,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4199,12 +4199,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4277,12 +4277,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4355,12 +4355,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4433,12 +4433,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4511,12 +4511,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4589,12 +4589,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4667,12 +4667,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4745,12 +4745,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4823,12 +4823,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4901,12 +4901,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -4979,12 +4979,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5057,12 +5057,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5135,12 +5135,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5213,12 +5213,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5291,12 +5291,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5369,12 +5369,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5447,12 +5447,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5525,12 +5525,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5603,12 +5603,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5681,12 +5681,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5759,12 +5759,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5837,12 +5837,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5915,12 +5915,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -5993,12 +5993,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6071,12 +6071,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6149,12 +6149,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6227,12 +6227,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6305,12 +6305,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6383,12 +6383,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6461,12 +6461,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6539,12 +6539,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6617,12 +6617,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6695,12 +6695,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6773,12 +6773,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6851,12 +6851,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -6929,12 +6929,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7007,12 +7007,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7085,12 +7085,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7163,12 +7163,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7241,12 +7241,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7319,12 +7319,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7397,12 +7397,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7475,12 +7475,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7553,12 +7553,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7631,12 +7631,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7709,12 +7709,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7787,12 +7787,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7865,12 +7865,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -7943,12 +7943,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8021,12 +8021,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8099,12 +8099,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8177,12 +8177,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8255,12 +8255,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8333,12 +8333,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8411,12 +8411,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8489,12 +8489,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8567,12 +8567,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8645,12 +8645,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8723,12 +8723,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8801,12 +8801,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8879,12 +8879,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -8957,12 +8957,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9035,12 +9035,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9113,12 +9113,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9191,12 +9191,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9269,12 +9269,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9347,12 +9347,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9425,12 +9425,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9503,12 +9503,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9581,12 +9581,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9659,12 +9659,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9737,12 +9737,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9815,12 +9815,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9893,12 +9893,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -9971,12 +9971,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10049,12 +10049,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10127,12 +10127,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10205,12 +10205,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10283,12 +10283,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10361,12 +10361,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10439,12 +10439,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10517,12 +10517,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10595,12 +10595,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10673,12 +10673,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10751,12 +10751,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10829,12 +10829,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10907,12 +10907,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -10985,12 +10985,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11063,12 +11063,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11141,12 +11141,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11219,12 +11219,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11297,12 +11297,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11375,12 +11375,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11453,12 +11453,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11531,12 +11531,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11609,12 +11609,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11687,12 +11687,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11765,12 +11765,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11843,12 +11843,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11921,12 +11921,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -11999,12 +11999,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12077,12 +12077,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12155,12 +12155,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12233,12 +12233,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12311,12 +12311,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12389,12 +12389,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12467,12 +12467,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12545,12 +12545,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12623,12 +12623,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12701,12 +12701,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12779,12 +12779,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12857,12 +12857,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -12935,12 +12935,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13013,12 +13013,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13091,12 +13091,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13169,12 +13169,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13247,12 +13247,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13325,12 +13325,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13403,12 +13403,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13481,12 +13481,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13559,12 +13559,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13637,12 +13637,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13715,12 +13715,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13793,12 +13793,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13871,12 +13871,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -13949,12 +13949,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14027,12 +14027,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14105,12 +14105,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14183,12 +14183,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14261,12 +14261,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14339,12 +14339,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14417,12 +14417,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14495,12 +14495,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14573,12 +14573,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14651,12 +14651,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14729,12 +14729,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14807,12 +14807,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14885,12 +14885,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -14963,12 +14963,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15041,12 +15041,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15119,12 +15119,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15197,12 +15197,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15275,12 +15275,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15353,12 +15353,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15431,12 +15431,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15509,12 +15509,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15587,12 +15587,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15665,12 +15665,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15743,12 +15743,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15821,12 +15821,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15899,12 +15899,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -15977,12 +15977,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16055,12 +16055,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16133,12 +16133,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16211,12 +16211,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16289,12 +16289,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16367,12 +16367,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16445,12 +16445,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16523,12 +16523,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16601,12 +16601,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16679,12 +16679,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16757,12 +16757,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16835,12 +16835,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16913,12 +16913,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -16991,12 +16991,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17069,12 +17069,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17147,12 +17147,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17225,12 +17225,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17303,12 +17303,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17381,12 +17381,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17459,12 +17459,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17537,12 +17537,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17615,12 +17615,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17693,12 +17693,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17771,12 +17771,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17849,12 +17849,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -17927,12 +17927,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18005,12 +18005,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18083,12 +18083,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18161,12 +18161,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18239,12 +18239,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18317,12 +18317,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18395,12 +18395,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18473,12 +18473,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18551,12 +18551,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18629,12 +18629,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18707,12 +18707,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18785,12 +18785,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18863,12 +18863,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -18941,12 +18941,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19019,12 +19019,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19097,12 +19097,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19175,12 +19175,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19253,12 +19253,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19331,12 +19331,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19409,12 +19409,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19487,12 +19487,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19565,12 +19565,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19643,12 +19643,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19721,12 +19721,12 @@
           "chan_num": 1,
           "pad": [1, 1, 0, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19799,12 +19799,12 @@
           "chan_num": 1,
           "pad": [1, 0, 0, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19877,12 +19877,12 @@
           "chan_num": 1,
           "pad": [0, 1, 1, 0]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {
@@ -19955,12 +19955,12 @@
           "chan_num": 1,
           "pad": [0, 0, 1, 1]
         },
-        "maxpool":{},
         "quantize":
         {
           "pos_slope": "1.0",
           "neg_slope": "1.0"
-        }
+        },
+        "maxpool":{}
       },
       "write_back":
       {

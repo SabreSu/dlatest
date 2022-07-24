@@ -32,9 +32,10 @@ def verify_conv_nhwc_maxpool(feature_map_shape, weight_shape, origin_file, weigh
   # 6. Parse "mem.dat" file and verify the result.
   dw_np = tvm.topi.testing.dilate_python(weight_list, (1, 1, 1, 1))
   b_np = tvm.topi.testing.conv2d_nhwc_python(feature_map, dw_np, stride, padding)
+  b_np = b_np * (b_np > 0)
   b_np_trans = np.transpose(b_np, (0, 3, 1, 2))
   b_pool_np = tvm.topi.testing.poolnd_python(
-    b_np,
+    b_np_trans,
     [2,2],
     [2,2],
     [1,1],

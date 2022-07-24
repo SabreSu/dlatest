@@ -1,4 +1,3 @@
-
 tab_string = " "*2
 
 class gen_sxdla_code():
@@ -34,7 +33,7 @@ class gen_sxdla_code():
     # self.code_list.append(self.gen_weight(level+1))
     
     # program head
-    self.code_list.append(tab_string + "\"progarm\":\n")
+    self.code_list.append(tab_string + "\"program\":\n")
     self.code_list.append(tab_string + "[\n")
 
     self.gen_out_channel(level+1)
@@ -215,13 +214,22 @@ class gen_sxdla_code():
       self.gen_conv(channel_num, ic, padding, level+1, conv_last)
     
     if conv_last == False:
-      if "activate" in self.op_list:
-        self.gen_active(level+1)
-        
-      if "maxpool" in self.op_list:
-        self.gen_maxpool(level+1)
+      for i in self.op_list:
+        if i == "activate":
+          self.gen_active(level+1)
+        elif i == "maxpool":
+          self.gen_maxpool(level+1)
+        elif i == "quantize":
+          self.gen_quantes(level+1)
 
-      self.gen_quantes(level+1)
+      # if "activate" in self.op_list:
+      #   self.gen_active(level+1)
+        
+      # if "maxpool" in self.op_list:
+      #   self.gen_maxpool(level+1)
+
+      # if "quantize" in self.op_list:
+      #   self.gen_quantes(level+1)
     
     self.code_list.append(tab_string*level + "},\n")
 
@@ -247,11 +255,17 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*(level + 1) + "\"neg_slope\": \"{}\"\n".format(str(1.0)))
     # self.code_list.append(tab_string*(level + 1) + "\"pos_thd\": {}\n".format(str(255)))
 
-    self.code_list.append(tab_string*level + "},\n")
+    if "activate" == self.op_list[-1]:
+      self.code_list.append(tab_string*level + "}\n")
+    else:
+      self.code_list.append(tab_string*level + "},\n")
 
 
   def gen_maxpool(self, level):
-    self.code_list.append(tab_string*(level) + "\"maxpool\":{},\n")
+    if "maxpool" == self.op_list[-1]:
+      self.code_list.append(tab_string*(level) + "\"maxpool\":{}\n")
+    else:
+      self.code_list.append(tab_string*(level) + "\"maxpool\":{},\n")
 
 
   def gen_quantes(self, level):
@@ -261,7 +275,10 @@ class gen_sxdla_code():
     self.code_list.append(tab_string*(level +1) + "\"pos_slope\": \"{}\",\n".format(str(1.0)))
     self.code_list.append(tab_string*(level +1) + "\"neg_slope\": \"{}\"\n".format(str(1.0)))
 
-    self.code_list.append(tab_string*level + "}\n")
+    if "quantize" == self.op_list[-1]:
+      self.code_list.append(tab_string*level + "}\n")
+    else:
+      self.code_list.append(tab_string*level + "},\n")
 
 
   def gen_output(self, dst_addr, level):
@@ -281,6 +298,15 @@ class gen_sxdla_code():
   
 
 if __name__ == "__main__":
+  """
+  Supported modes:
+  1. activate
+  2. quantize + activate
+  3. quantize + maxpool
+  4. activate + quantize + maxpool
+  5. quantize
+  6. activate + quantize
+  """
   layer1_conv7x7 = gen_sxdla_code(
     "layer1_conv7x7",
     "weight",
@@ -293,7 +319,7 @@ if __name__ == "__main__":
     4,
     3,
     64,
-    ["conv3","activate","maxpool"]
+    ["conv3","activate","quantize","maxpool"]
   )
 
   layer2_average_pool = gen_sxdla_code(
@@ -308,7 +334,7 @@ if __name__ == "__main__":
     2,
     64,
     64,
-    ["conv3","maxpool"]
+    ["conv3","quantize", "maxpool"]
   )
   
   layer3_56 = gen_sxdla_code(
@@ -323,7 +349,7 @@ if __name__ == "__main__":
     1,
     64,
     64,
-    ["conv3","activate"]
+    ["conv3","activate", "quantize"]
   )
   
   layer4_56 = gen_sxdla_code(
@@ -338,7 +364,7 @@ if __name__ == "__main__":
     1,
     64,
     64,
-    ["conv3","add", "activate", "maxpool"],
+    ["conv3","add", "activate", "quantize", "maxpool"],
     0x1000000
   )
 
@@ -354,7 +380,7 @@ if __name__ == "__main__":
     1,
     64,
     128,
-    ["conv3","activate"] 
+    ["conv3","activate", "quantize"] 
   )
 
   layer6_28 = gen_sxdla_code(
@@ -369,7 +395,7 @@ if __name__ == "__main__":
     1,
     128,
     128,
-    ["conv3","add", "activate", "maxpool"],
+    ["conv3","add", "activate","quantize", "maxpool"],
     0x1031000
   )
 
@@ -385,7 +411,7 @@ if __name__ == "__main__":
     1,
     128,
     256,
-    ["conv3","activate"]
+    ["conv3","activate", "quantize"]
   )
   
   layer8_14 = gen_sxdla_code(
@@ -400,7 +426,7 @@ if __name__ == "__main__":
     1,
     256,
     256,
-    ["conv3","add", "activate", "maxpool"],
+    ["conv3","add", "activate","quantize","maxpool"],
     0x1000000
   )
 
@@ -416,7 +442,7 @@ if __name__ == "__main__":
     1,
     256,
     512,
-    ["conv3","activate"]
+    ["conv3","activate", "quantize"]
   )
 
   layer10_7 = gen_sxdla_code(
@@ -431,6 +457,6 @@ if __name__ == "__main__":
     1,
     512,
     512,
-    ["conv3","add", "activate", "maxpool"],
+    ["conv3","add", "activate", "quantize", "maxpool"],
     0x1031000
   )
