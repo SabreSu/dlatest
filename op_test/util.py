@@ -163,7 +163,7 @@ def gen_weight_data_str(weight):
   weight = np.transpose(weight, (3,2,0,1))
   # print("---------------------")
   # print(weight)
-  weight = numpyint8_2_hexstring(weight)
+  # weight = numpyint8_2_hexstring(weight)
 
   # if len(weight) % 8 != 0:
   #   zero_pad = ["00"]*(8-len(weight) % 8)
@@ -199,9 +199,9 @@ def write_weight_file(weight_list_str, file_name="weight"):
   Returns:
       string: file name
   """
-  with open(file_name, 'w', encoding="ascii") as file:
+  with open(file_name, 'wb') as file:
     for i in weight_list_str:
-      file.write(i + "\n")
+      file.write(i)
 
 # The following functions are used to generate "data.dat" file.
 
