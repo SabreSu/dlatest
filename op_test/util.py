@@ -199,8 +199,11 @@ def write_weight_file(weight_list_str, file_name="weight"):
   Returns:
       string: file name
   """
+  weight_list_str = weight_list_str.flatten()
+  print("weight_List: ", weight_list_str)
   with open(file_name, 'wb') as file:
     for i in weight_list_str:
+      print("weight_data: ",i,"---")
       file.write(i)
 
 # The following functions are used to generate "data.dat" file.
