@@ -147,7 +147,8 @@ def gen_weight_data(dshape, dtype):
   else:
     raise Exception("Currently, only \"int8\" and \"uint8\" data types are supported.")
 
-  weight = np.random.randint(under, 10, size=dshape).astype(dtype)
+  # weight = np.random.randint(under, 10, size=dshape).astype(dtype)
+  weight = np.ones(dshape, dtype=dtype)
   return weight
 
 def gen_weight_data_str(weight):
@@ -161,6 +162,7 @@ def gen_weight_data_str(weight):
   """
   # print(weight)
   weight = np.transpose(weight, (3,2,0,1))
+  # weight_app = np.append(weight, 1)
   # print("---------------------")
   # print(weight)
   # weight = numpyint8_2_hexstring(weight)
@@ -203,7 +205,7 @@ def write_weight_file(weight_list_str, file_name="weight"):
   print("weight_List: ", weight_list_str)
   with open(file_name, 'wb') as file:
     for i in weight_list_str:
-      print("weight_data: ",i,"---")
+      # print("weight_data: ",i,"---")
       file.write(i)
 
 # The following functions are used to generate "data.dat" file.
@@ -227,7 +229,8 @@ def gen_feature_map_data(dshape, dtype):
   else:
     raise Exception("Currently, only \"int8\" and \"uint8\" data types are supported.")
 
-  feature_map = np.random.randint(under, 10, size=dshape).astype(dtype)
+  # feature_map = np.random.randint(under, 10, size=dshape).astype(dtype)
+  feature_map = np.ones(dshape, dtype=dtype)
   return feature_map
 
 def write_data(feature_map, file_name="data.dat"):

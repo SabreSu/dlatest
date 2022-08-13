@@ -66,12 +66,21 @@ def verify_conv_nhwc_int8(feature_map_shape, weight_shape, origin_file, weight_f
   feature_map_str = numpyint8_2_hexstring(feature_map)
   write_data(feature_map_str, "data.dat")
   
+  #with open("cmd.dat", 'r') as f:
+  #  cmd = f.readlines()
+
+  #cmd[56] = cmd[55]
+
+  #with open("cmd.dat", 'w', encoding="ascii") as f:
+  #  f.writelines(cmd)
+
   # 5. Run dla
   subprocess.run("sxdla", shell=True)
   
   # 6. Parse "mem.dat" file and verify the result.
   dw_np = tvm.topi.testing.dilate_python(weight_list, (1, 1, 1, 1))
   b_np = tvm.topi.testing.conv2d_nhwc_python(feature_map, dw_np, stride, padding)
+  print(b_np)
   verify_result(b_np, feature_map_shape, "mem.dat")
 
 def test_conv_nhwc_int8():
