@@ -9,7 +9,7 @@ from util import *
 import tvm
 
 # pylint: disable=line-too-long,missing-function-docstring,too-many-arguments
-def verify_conv_nhwc_tiling(feature_map_shape, weight_shape, origin_file, weight_file, dtype="int8", stride=1, padding=1):
+def verify_conv_nhwc_tiling(feature_map_shape, weight_shape, origin_file, weight_file, dtype="int8", stride=1, padding=1, rand_type="rand"):
   # 1. Generate weight data and write to a weight file.
   weight_list = gen_weight_data(weight_shape, dtype)
   weight_list_str = gen_weight_data_str(weight_list)
@@ -33,11 +33,12 @@ def verify_conv_nhwc_tiling(feature_map_shape, weight_shape, origin_file, weight
   dw_np = tvm.topi.testing.dilate_python(weight_list, (1, 1, 1, 1))
   b_np = tvm.topi.testing.conv2d_nhwc_python(feature_map, dw_np, stride, padding)
   # subprocess.run("cp data.dat mem.dat", shell=True)
-  verify_result(b_np, feature_map_shape, "mem.dat")
+  verify_result(b_np, feature_map_shape, weight_shape, "mem.dat")
 
 def test_conv_nhwc_int8():
-  verify_conv_nhwc_tiling([1, 224, 224, 1], [3, 3, 3, 3], "conv_nhwc_tiling_224", "weight.dat")
-  verify_conv_nhwc_tiling([1, 112, 112, 1], [3, 3, 3, 3], "conv_nhwc_tiling_112", "weight.dat")
+  #verify_conv_nhwc_tiling([1, 224, 224, 1], [3, 3, 3, 3], "conv_nhwc_tiling_224", "weight.dat")
+  #verify_conv_nhwc_tiling([1, 112, 112, 1], [3, 3, 3, 3], "conv_nhwc_tiling_112", "weight.dat", rand_type="ones")
+  verify_conv_nhwc_tiling([1, 112, 112, 1], [3, 3, 1, 1], "conv_nhwc_tiling_112", "weight.dat", rand_type="ones")
   # clean up temporary files.
   clean_up_tmp_files()
 

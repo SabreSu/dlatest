@@ -16,8 +16,8 @@ if __name__ == "__main__":
     56,
     4,
     3,
-    3,
-    ["conv3"]
+    1,
+    ["conv3", "quantize"]
   )
 
   tiling_test = gen_sxdla_code(
@@ -31,6 +31,6 @@ if __name__ == "__main__":
     56,
     2,
     3,
-    3,
-    ["conv3"]
+    1,
+    ["conv3", "quantize"]
   )

@@ -49,11 +49,11 @@ def verify_conv_nhwc_maxpool(feature_map_shape, weight_shape, origin_file, weigh
   )
   b_pool_np_trans = np.transpose(b_pool_np, (0, 2, 3, 1))
   # subprocess.run("cp data.dat mem.dat", shell=True)
-  verify_result(b_pool_np_trans, feature_map_shape, "mem.dat")
+  verify_result(b_pool_np_trans, feature_map_shape, weight_shape, "mem.dat", maxpool=True)
 
 def test_conv_nhwc_maxpool():
   # verify_conv_nhwc_maxpool([1, 112, 112, 1], [3, 3, 3, 3], "conv_nhwc_tiling_maxpool_112", "weight.dat")
-  verify_conv_nhwc_maxpool([1, 64, 64, 1], [3, 3, 3, 3], "conv_nhwc_maxpool_64", "weight.dat")
+  verify_conv_nhwc_maxpool([1, 63, 63, 1], [3, 3, 3, 3], "conv_nhwc_maxpool_63", "weight.dat")
   # clean up temporary files.
   clean_up_tmp_files()
 

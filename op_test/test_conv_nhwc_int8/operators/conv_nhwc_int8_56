@@ -19,8 +19,8 @@
                     },
                     "quantize":
                     {
-                        "pos_slope" : "1",
-                        "neg_slope" : "1"
+                        "pos_slope" : "1.0",
+                        "neg_slope" : "1.0"
                     }
                 },
                 "write_back":

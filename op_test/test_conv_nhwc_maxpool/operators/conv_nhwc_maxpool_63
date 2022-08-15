@@ -1,0 +1,254 @@
+{
+  "program":
+  [
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x100000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        }
+      },
+      "write_back":
+      {
+        "addr":"0x2f000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x100f81",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        }
+      },
+      "write_back":
+      {
+        "addr":"0x2f000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x101f02",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        },
+        "activate":
+        {
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
+        },
+        "quantize":
+        {
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
+        },
+        "maxpool":{}
+      },
+      "write_back":
+      {
+        "addr":"0x1000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x100000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        }
+      },
+      "write_back":
+      {
+        "addr":"0x2f000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x100f81",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        }
+      },
+      "write_back":
+      {
+        "addr":"0x2f000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x101f02",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        },
+        "activate":
+        {
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
+        },
+        "quantize":
+        {
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
+        },
+        "maxpool":{}
+      },
+      "write_back":
+      {
+        "addr":"0x1000f81",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x100000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        }
+      },
+      "write_back":
+      {
+        "addr":"0x2f000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x100f81",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        }
+      },
+      "write_back":
+      {
+        "addr":"0x2f000000",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    },
+    {
+      "input_addr":
+      {
+        "tile_width": 63,
+        "tile_height": 63,
+        "addr":"0x101f02",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      },
+      "operators":
+      {
+        "conv3":
+        {
+          "chan_num": 1,
+          "pad": [1, 1, 1, 1]
+        },
+        "activate":
+        {
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
+        },
+        "quantize":
+        {
+          "pos_slope": "1.0",
+          "neg_slope": "1.0"
+        },
+        "maxpool":{}
+      },
+      "write_back":
+      {
+        "addr":"0x1001f02",
+        "byte_perline": 63,
+        "byte_perchan": 3969
+      }
+    }
+  ]
+}

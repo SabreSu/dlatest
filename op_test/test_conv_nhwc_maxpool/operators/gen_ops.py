@@ -21,14 +21,14 @@ if __name__ == "__main__":
   )
 
   conv_activate = gen_sxdla_code(
-    "conv_nhwc_maxpool_64",
+    "conv_nhwc_maxpool_63",
     "weight",
     0x1000000,
     0x100000,
-    64,
-    64,
-    64,
-    64,
+    63,
+    63,
+    63,
+    63,
     1,
     3,
     3,

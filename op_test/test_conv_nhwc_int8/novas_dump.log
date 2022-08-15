@@ -209,7 +209,7 @@ CONDA_EXE=/work/sabre/miniconda3/bin/conda
 SSH_AUTH_SOCK=/home/user1/.cache/keyring-INHAQ1/ssh
 DVE_HOME=/work/soft/Synopsys/vcs/O-2018.09-SP2
 SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/6187,unix/unix:/tmp/.ICE-unix/6187
-COLUMNS=211
+COLUMNS=80
 _CE_CONDA=
 GNOME_SHELL_SESSION_MODE=classic
 PATH=/work/sabre/miniconda3/bin:/work/sabre/miniconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/work/soft/Synopsys/vcs/O-2018.09-SP2/gui/dev/bin:/work/soft/Synopsys/vcs/O-2018.09-SP2/bin:/work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/work/soft/Synopsys/scl/2018.06/linux64/bin:/home/user1/.local/bin:/home/user1/bin:/work/soft/Synopsys/vcs/O-2018.09-SP2/gui/dev/bin:/work/soft/Synopsys/vcs/O-2018.09-SP2/bin:/work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/work/soft/Synopsys/scl/2018.06/linux64/bin
@@ -222,7 +222,7 @@ XMODIFIERS=@im=ibus
 VCS_HOME=/work/soft/Synopsys/vcs/O-2018.09-SP2
 LANG=en_US.UTF-8
 TVM_LIBRARY_PATH=/work/sabre/tvm/build_ninja
-LINES=52
+LINES=24
 VCS_MX_HOME=/work/soft/Synopsys/vcs-mx/O-2018.09-SP2
 LM_LICENSE_FILE=27000@localhost.localdomain
 HISTCONTROL=ignoredups
@@ -233,6 +233,7 @@ HOME=/home/user1
 SHLVL=6
 TVM_HOME=/work/sabre/tvm
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PYTEST_CURRENT_TEST=test_conv_nhwc.py::test_conv_nhwc_int8 (call)
 PYTHONPATH=/work/sabre/tvm/python:
 CONDA_PYTHON_EXE=/work/sabre/miniconda3/bin/python
 LOGNAME=user1
@@ -251,75 +252,77 @@ VCS_PATHMAP_PRELOAD_DONE=1
 VCS_STACK_EXEC=true
 VCS_EXEC_DONE=1
 LC_ALL=C
+VCS_STOP_SAFE=1
 DVE=/work/soft/Synopsys/vcs/O-2018.09-SP2/gui/dve
 SPECMAN_OUTPUT_TO_TTY=1
 Runtime command line arguments:
 argv[0]=./simv
-257 profile - 100
-          CPU/Mem usage: 0.110 sys,  3.280 user,  567.32M mem
-258 Fri Aug 12 21:50:24 2022
-259 pliAppInit
-260 FSDB_GATE is set.
-261 FSDB_RTL is set.
-262 Enable Parallel Dumping.
-263 pliAppMiscSet: New Sim Round
-264 pliEntryInit
-265 LIBSSCORE=found /work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUXAMD64/libsscore_vcs201809.so through $NOVAS_HOME setting.
-266 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
-267 (C) 1996 - 2019 by Synopsys, Inc.
-268 FSDB_VCS_ENABLE_FAST_VC is enable
-269 sps_call_fsdbAutoSwitchDumpfile_main_vd at 0 : ../tb/tb_top.sv(634)
-270 sps_call_fsdbAutoSwitchDumpfile at 0 : ../tb/tb_top.sv(634)
-271 argv[0]: (1024)
-272 argv[1]: (sim.fsdb)
-273 argv[2]: (50)
-274 *Verdi* FSDB: The switch FSDB file size might not match the input size (1024MB) because of performance concerns.
-275 *Verdi* FSDB: To have the FSDB file size match the input size (1024MB), set the FSDB_ENV_PRECISE_AUTOSWITCH environment, though the dumping performance might decrease.
-276 *Verdi* : Enable automatic switching of the FSDB file.
-277 *Verdi* : (Filename='sim', Limit Size=1024MB, File Amount=50).
-278 *Verdi* : Create FSDB file 'sim_000.fsdb'
-279 compile option from '/work/sabre/sxdla/op_test/test_conv_nhwc_int8/simv.daidir/vcs_rebuild'.
-280   "vcs '-sverilog' '-f' '../vc/filelist.vc' '-f' '../vc/tb.vc' '-sverilog' '-l' 'sim.log' '-cm' 'line+tgl+fsm+cond' '-full64' '-timescale=1ns/1ps' '+v2k' '+cli+3' '+lint=TFIPC-L' '-Mupdate' '+nospecify' '+notimingcheck' '-notice' '+transport_path_delays' '+pulse_e/20' '+pulse_r/20' '-cm_name' 'TEST' '-debug_all' '-lca' '-kdb' '+define+MINIMAL_SIM+' '+define+define+DLY+define+SYN+define+DUAL_CACHE+define+H264+define+EMA_VALUE=3'b10+define+EMAW_VALUE=2'b0+' '-R' '-P' '/work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/novas.tab' '/work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a' '+ntb_random_seed=1' 2>&1"
-281 *Verdi* : Create the file 'sim.log' to log the time range of each FSDB file.
-282 *Verdi* : Create virtual FSDB file 'sim.vf' to log each FSDB file.
-283 sps_call_fsdbDumpvars_vd_main at 0 : ../tb/tb_top.sv(635)
-284 argv[0]: (0)
-285 argv[1]: (handle) tb
-286 [spi_vcs_vd_ppi_create_root]: no upf option
-287 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
-288 *Verdi* : Begin traversing the scope (tb), layer (0).
-289 *Verdi* WARNING: Var 'ram0' will be ignored because its total element is larger than or equal to 33554432.
-290 *Verdi* : End of traversing.
-291 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.130 sys,  3.330 user,  663.74M mem
-                   incr: 0.010 sys,  0.040 user,  8.61M mem
-                   accu: 0.010 sys,  0.040 user,  8.61M mem
-              accu incr: 0.010 sys,  0.040 user,  8.61M mem
+259 profile - 100
+          CPU/Mem usage: 0.080 sys,  3.230 user,  567.39M mem
+260 Sun Aug 14 23:34:10 2022
+261 pliAppInit
+262 FSDB_GATE is set.
+263 FSDB_RTL is set.
+264 Enable Parallel Dumping.
+265 pliAppMiscSet: New Sim Round
+266 pliEntryInit
+267 LIBSSCORE=found /work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUXAMD64/libsscore_vcs201809.so through $NOVAS_HOME setting.
+268 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+269 (C) 1996 - 2019 by Synopsys, Inc.
+270 FSDB_VCS_ENABLE_FAST_VC is enable
+271 sps_call_fsdbAutoSwitchDumpfile_main_vd at 0 : ../tb/tb_top.sv(634)
+272 sps_call_fsdbAutoSwitchDumpfile at 0 : ../tb/tb_top.sv(634)
+273 argv[0]: (1024)
+274 argv[1]: (sim.fsdb)
+275 argv[2]: (50)
+276 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+277 *Verdi* FSDB: The switch FSDB file size might not match the input size (1024MB) because of performance concerns.
+278 *Verdi* FSDB: To have the FSDB file size match the input size (1024MB), set the FSDB_ENV_PRECISE_AUTOSWITCH environment, though the dumping performance might decrease.
+279 *Verdi* : Enable automatic switching of the FSDB file.
+280 *Verdi* : (Filename='sim', Limit Size=1024MB, File Amount=50).
+281 *Verdi* : Create FSDB file 'sim_000.fsdb'
+282 compile option from '/work/sabre/sxdla/op_test/test_conv_nhwc_int8/simv.daidir/vcs_rebuild'.
+283   "vcs '-sverilog' '-f' '../vc/filelist.vc' '-f' '../vc/tb.vc' '-sverilog' '-l' 'sim.log' '-cm' 'line+tgl+fsm+cond' '-full64' '-timescale=1ns/1ps' '+v2k' '+cli+3' '+lint=TFIPC-L' '-Mupdate' '+nospecify' '+notimingcheck' '-notice' '+transport_path_delays' '+pulse_e/20' '+pulse_r/20' '-cm_name' 'TEST' '-debug_all' '-lca' '-kdb' '+define+MINIMAL_SIM+' '+define+define+DLY+define+SYN+define+DUAL_CACHE+define+H264+define+EMA_VALUE=3'b10+define+EMAW_VALUE=2'b0+' '-R' '-P' '/work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/novas.tab' '/work/soft/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a' '+ntb_random_seed=1' 2>&1"
+284 *Verdi* : Create the file 'sim.log' to log the time range of each FSDB file.
+285 *Verdi* : Create virtual FSDB file 'sim.vf' to log each FSDB file.
+286 sps_call_fsdbDumpvars_vd_main at 0 : ../tb/tb_top.sv(635)
+287 argv[0]: (0)
+288 argv[1]: (handle) tb
+289 [spi_vcs_vd_ppi_create_root]: no upf option
+290 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
+291 *Verdi* : Begin traversing the scope (tb), layer (0).
+292 *Verdi* WARNING: Var 'ram0' will be ignored because its total element is larger than or equal to 33554432.
+293 *Verdi* : End of traversing.
+294 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  3.280 user,  663.74M mem
+                   incr: 0.000 sys,  0.040 user,  8.55M mem
+                   accu: 0.000 sys,  0.040 user,  8.55M mem
+              accu incr: 0.000 sys,  0.040 user,  8.55M mem
 
           Count usage: 2896 var,  1901 idcode,  923 callback
                  incr: 2896 var,  1901 idcode,  923 callback
                  accu: 2896 var,  1901 idcode,  923 callback
             accu incr: 2896 var,  1901 idcode,  923 callback
-292 Fri Aug 12 21:50:25 2022
-293 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.130 sys,  3.330 user,  664.94M mem
+295 Sun Aug 14 23:34:11 2022
+296 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.090 sys,  3.280 user,  664.94M mem
                    incr: 0.000 sys,  0.000 user,  1.19M mem
-                   accu: 0.010 sys,  0.040 user,  9.81M mem
+                   accu: 0.000 sys,  0.040 user,  9.74M mem
               accu incr: 0.000 sys,  0.000 user,  1.19M mem
 
           Count usage: 2896 var,  1901 idcode,  923 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 2896 var,  1901 idcode,  923 callback
             accu incr: 0 var,  0 idcode,  0 callback
-294 Fri Aug 12 21:50:25 2022
-295 End of simulation at 35476000
-296 Fri Aug 12 21:50:31 2022
-297 Begin FSDB profile info:
-298 FSDB Writer : bc1(18018) bcn(189583) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.924966) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+297 Sun Aug 14 23:34:11 2022
+298 End of simulation at 35476000
+299 Sun Aug 14 23:34:16 2022
+300 Begin FSDB profile info:
+301 FSDB Writer : bc1(17991) bcn(64575) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.414400) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
-299 End FSDB profile info
-300 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:1 BlockUsed:1
-301                        ProduceTime:9.498700361 ConsumerTime:0.011467585 Buffer:64MB
-302 SimExit
-303 Sim process exit
+302 End FSDB profile info
+303 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+304                        ProduceTime:8.711217284 ConsumerTime:0.000000000 Buffer:64MB
+305 SimExit
+306 Sim process exit

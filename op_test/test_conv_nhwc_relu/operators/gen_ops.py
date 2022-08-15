@@ -17,7 +17,7 @@ if __name__ == "__main__":
     2,
     3,
     3,
-    ["conv3", "activate"]
+    ["conv3", "activate", "quantize"]
   )
 
   conv_activate = gen_sxdla_code(
@@ -32,5 +32,5 @@ if __name__ == "__main__":
     1,
     3,
     3,
-    ["conv3", "activate"]
+    ["conv3", "activate", "quantize"]
   )

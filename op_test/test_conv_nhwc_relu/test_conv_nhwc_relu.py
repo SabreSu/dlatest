@@ -34,7 +34,7 @@ def verify_conv_nhwc_relu(feature_map_shape, weight_shape, origin_file, weight_f
   dw_np = tvm.topi.testing.dilate_python(weight_list, (1, 1, 1, 1))
   b_np = tvm.topi.testing.conv2d_nhwc_python(feature_map, dw_np, stride, padding)
   b_np = b_np * (b_np > 0)
-  verify_result(b_np, feature_map_shape, "mem.dat")
+  verify_result(b_np, feature_map_shape, weight_shape, "mem.dat")
 
 def test_conv_nhwc_relu():
   verify_conv_nhwc_relu([1, 64, 64, 1], [3, 3, 3, 3], "conv_nhwc_tiling_activate_64", "weight.dat")

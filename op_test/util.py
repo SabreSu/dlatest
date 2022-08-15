@@ -130,7 +130,7 @@ def translate_2_little(_str=""):
 
 # (fixme)TODO(ssb): Call different numpy random generation
 # functions according to different data types.
-def gen_weight_data(dshape, dtype):
+def gen_weight_data(dshape, dtype, rand_type="rand"):
   """Generate weight data
 
   Args:
@@ -141,14 +141,16 @@ def gen_weight_data(dshape, dtype):
       ndarray[]: A data list of type numpy.
   """
   if dtype == "int8":
-    under = -10
+    under = -5
   elif dtype == "uint8":
     under = 0
   else:
     raise Exception("Currently, only \"int8\" and \"uint8\" data types are supported.")
-
-  # weight = np.random.randint(under, 10, size=dshape).astype(dtype)
-  weight = np.ones(dshape, dtype=dtype)
+  
+  if rand_type == "rand": 
+    weight = np.random.randint(under, 5, size=dshape).astype(dtype)
+  else:  
+    weight = np.ones(dshape, dtype=dtype)
   return weight
 
 def gen_weight_data_str(weight):
@@ -212,7 +214,7 @@ def write_weight_file(weight_list_str, file_name="weight"):
 
 # (fixme)TODO(ssb): Call different numpy random generation functions
 # according to different data types.
-def gen_feature_map_data(dshape, dtype):
+def gen_feature_map_data(dshape, dtype, rand_type="rand"):
   """Generate feature map data.
 
   Args:
@@ -223,14 +225,17 @@ def gen_feature_map_data(dshape, dtype):
       ndarray[]: A data list of type numpy.
   """
   if dtype == "int8":
-    under = -10
+    under = -5
   elif dtype == "uint8":
     under = 0
   else:
     raise Exception("Currently, only \"int8\" and \"uint8\" data types are supported.")
 
-  # feature_map = np.random.randint(under, 10, size=dshape).astype(dtype)
-  feature_map = np.ones(dshape, dtype=dtype)
+  if rand_type == "rand":
+    feature_map = np.random.randint(under, 5, size=dshape).astype(dtype)
+  else:
+    feature_map = np.ones(dshape, dtype=dtype)
+
   return feature_map
 
 def write_data(feature_map, file_name="data.dat"):
@@ -247,14 +252,21 @@ def write_data(feature_map, file_name="data.dat"):
   print("write feature map data to \"{}\" file.".format(file_name))
 
 # (fixme)TODO(ssb): support the start adress are not equal to "0X1000000".
-def verify_result(python_result, result_shape, file_name="mem.dat"):
+def verify_result(python_result, feature_map_shape, weight_shape,file_name="mem.dat", maxpool=False):
   """Verify dla's data
 
   Args:
       python_result (ndarray): The result of python running.
-      result_shape (_type_): The shape of result.
+      feature_map_shape (_type_): The shape of feature map.
       file_name (str, optional): The file name of dla's result. Defaults to "mem.dat".
   """
+  result_shape = feature_map_shape[0:3]
+  result_shape.append(weight_shape[-1])
+
+  if maxpool:
+    result_shape[1] = result_shape[1] // 2
+    result_shape[2] = result_shape[2] // 2
+
   result_length = 1
   for i in result_shape:
     result_length *= i
@@ -270,8 +282,19 @@ def verify_result(python_result, result_shape, file_name="mem.dat"):
 
   sx_result_np = np.array(sx_result, dtype="int8")
   sx_result_np = sx_result_np.reshape(result_shape)
+  python_result = python_result.astype(np.int8)
 
-  tvm.testing.assert_allclose(sx_result_np, python_result, rtol=1e-5)
+  """
+  with open("sx.result", 'w') as f:
+    for i in sx_result_np.flatten():
+      f.write(str(i) + "\n")
+
+  with open("python.result", 'w') as f:
+    for i in python_result.flatten():
+      f.write(str(i) + '\n')
+  """
+
+  tvm.testing.assert_allclose(sx_result_np, python_result, rtol=1e-1, atol=1e-1)
 
 def clean_up_tmp_files():
   """Clean up temporary files.
@@ -298,6 +321,8 @@ def clean_up_tmp_files():
   # if os.path.exists(as_out_file):
   #   os.remove(as_out_file)
   #   print(as_out_file, "has been removed.")
+
+  subprocess.run("rm -rf sim*", shell=True)
 
 def remove_head(file_name = "byte_per_line"):
   with open(file_name, 'r') as _file:
